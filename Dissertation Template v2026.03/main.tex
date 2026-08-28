@@ -1,0 +1,104 @@
+% ------------------------------------------------------------------------------
+% Mathematics Project Report Template
+% by Jon Shiach 2019
+% Manchester Metropolitan University
+% ------------------------------------------------------------------------------
+\documentclass[11pt]{report} 
+
+\usepackage{projectreport}
+
+% Define 'keyword' environment if not using elsarticle
+\newenvironment{keyword}{\par\noindent\textbf{Keywords:} }{\par}
+
+
+% ------------------------------------------------------------------------------
+% Enter your details here
+% ------------------------------------------------------------------------------
+\newcommand{\name}{Your Name}
+\newcommand{\degree}{Master of Commerce}
+\newcommand{\programme}{Information Technology Management}
+\newcommand{\projecttitle}{Project title} % Research project title as approved by the CBE HDC (case sensitive)
+\newcommand{\supervisor}{Dr. Siyabonga Mhlongo}
+\newcommand{\submissionyear}{2026}
+
+% ------------------------------------------------------------------------------
+% Document
+% ------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle
+
+% ------------------------------------------------------------------------------
+% Top matter
+% ------------------------------------------------------------------------------
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\blindtext[1] % creates dummy text
+
+\begin{keyword}
+ Keyword one, Keyword two, Keyword 3.
+\end{keyword}
+
+\chapter*{Declaration}
+\addcontentsline{toc}{chapter}{Declaration}
+I, {\name}, certify that the dissertation submitted by me for the {\degree} in {\programme} degree at the University of Johannesburg is my independent work and has not been submitted by me for a degree at another university.
+
+\vspace{2cm}
+------------------------------------------ \newline
+{\textsc \name} \newline
+(No signature required)
+
+\chapter*{Dedication}
+\addcontentsline{toc}{chapter}{Dedication}
+\blindtext[1]
+
+\chapter*{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\blindtext[1]
+
+\phantomsection
+\tableofcontents
+\markboth{Contents}{}
+\clearpage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Acronyms} %
+\printglossary[title=List of Acronyms,type=\acronymtype,style=long,nonumberlist,toctitle=List of Acronyms]
+\markboth{List of Acronyms}{}
+\clearpage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures} %
+\listoffigures
+\clearpage
+
+% ------------------------------------------------------------------------------
+% Main matter
+% Chapters are added to the document using the \include{chapterx} command
+% ------------------------------------------------------------------------------
+\newpage
+\setcounter{page}{0}
+\pagenumbering{arabic}
+\glsresetall
+
+\include{ch1_introduction}
+\include{ch2_literature}
+\include{ch3_methodology}
+\include{ch4_results}
+\include{ch5_discussion}
+\include{ch6_conclusion}
+
+% ------------------------------------------------------------------------------
+% Reference list
+% ------------------------------------------------------------------------------
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+\renewcommand\bibname{References}
+\printbibliography
+
+% ------------------------------------------------------------------------------
+% Appendices
+% ------------------------------------------------------------------------------
+\include{appendix}
+
+\end{document}
