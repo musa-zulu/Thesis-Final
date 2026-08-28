@@ -3095,6 +3095,9 @@
     <bcf:citekey order="22" intorder="1">Brynjolfsson2025</bcf:citekey>
     <bcf:citekey order="23" intorder="1">Cui2026</bcf:citekey>
     <bcf:citekey order="24" intorder="1">Peng2023</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">MoradiDakhel2023</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">Maentymaeki2022</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Holmstroem2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
