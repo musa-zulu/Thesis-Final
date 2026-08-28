@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  28 AUG 2026 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  28 AUG 2026 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,7 +1153,7 @@ Chapter 1.
 
 
 
-] [2] [3] [4]) [5] [6]
+] [2] [3] [4] [5]) [6]
 \openout2 = `ch2_literature.aux'.
 
  (ch2_literature.tex
@@ -1217,7 +1217,7 @@ Appendix A.
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=332, 597.55246p
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=348, 597.55246p
 t x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1235,7 +1235,7 @@ _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=334, page=1, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=350, page=1, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1278,7 +1278,7 @@ Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=376, page=2, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=392, page=2, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1323,10 +1323,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31444 strings out of 467871
- 597342 string characters out of 5418377
- 1587170 words of memory out of 5000000
- 59843 multiletter control sequences out of 15000+600000
+ 31476 strings out of 467871
+ 598314 string characters out of 5418377
+ 1587446 words of memory out of 5000000
+ 59871 multiletter control sequences out of 15000+600000
  636099 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,18n,104p,2496b,5185s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1338,9 +1338,9 @@ ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bhuta/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bhuta/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/bhuta/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (28 pages, 757170 bytes).
+Output written on main.pdf (28 pages, 762407 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
+ 465 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
  266 words of extra memory for PDF output out of 10000 (max. 10000000)
 
