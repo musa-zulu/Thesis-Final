@@ -118,6 +118,127 @@
       \verb 10.1016/j.jbusres.2024.114786
       \endverb
     \endentry
+    \entry{Brynjolfsson2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7bd9f54569cb8c0301da00ed49b5a752}{%
+           family={Brynjolfsson},
+           familyi={B\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9549ba5d9e9696208664346821d3ac14}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Danielle},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=526a7239b4cbed8ac82f3731346cd822}{%
+           family={Raymond},
+           familyi={R\bibinitperiod},
+           given={Lindsey},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press (OUP)}%
+      }
+      \strng{namehash}{00a6af65ff0bae825ed9db1b0be8f4fa}
+      \strng{fullhash}{52c6338e9f79371688e62392e04268b3}
+      \strng{fullhashraw}{52c6338e9f79371688e62392e04268b3}
+      \strng{bibnamehash}{52c6338e9f79371688e62392e04268b3}
+      \strng{authorbibnamehash}{52c6338e9f79371688e62392e04268b3}
+      \strng{authornamehash}{00a6af65ff0bae825ed9db1b0be8f4fa}
+      \strng{authorfullhash}{52c6338e9f79371688e62392e04268b3}
+      \strng{authorfullhashraw}{52c6338e9f79371688e62392e04268b3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1531-4650}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Generative AI at Work}
+      \field{volume}{140}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{889\bibrangedash 942}
+      \range{pages}{54}
+      \verb{doi}
+      \verb 10.1093/qje/qjae044
+      \endverb
+    \endentry
+    \entry{Cui2026}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=81c1ce3a2c61c096307b461b2bb3c78d}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Kevin\bibnamedelima Zheyuan},
+           giveni={K\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3c2cc443c71254678269de10d61d61c}{%
+           family={Demirer},
+           familyi={D\bibinitperiod},
+           given={Mert},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55c72fded884599743ce4812f8e05bb2}{%
+           family={Jaffe},
+           familyi={J\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0a683f7571420c1443a4485584bbca0}{%
+           family={Musolff},
+           familyi={M\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=369e0707d779067ef33cd3650d376b11}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Sida},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d00fb58e86bb95a6a846418f2dca46c2}{%
+           family={Salz},
+           familyi={S\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Institute for Operations Research}%
+        {the Management Sciences (INFORMS)}%
+      }
+      \strng{namehash}{e69e7e9c26ba916c36ba189d7e02c0ba}
+      \strng{fullhash}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{fullhashraw}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{bibnamehash}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{authorbibnamehash}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{authornamehash}{e69e7e9c26ba916c36ba189d7e02c0ba}
+      \strng{authorfullhash}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{authorfullhashraw}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1526-5501}
+      \field{journaltitle}{Management Science}
+      \field{month}{2}
+      \field{title}{The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1287/mnsc.2025.00535
+      \endverb
+    \endentry
     \entry{Gillespie2025}{report}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=6ccd271b98d3e1d501c90b25f03ffb1f}{%
@@ -390,6 +511,53 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.3390/admsci14120316
+      \endverb
+    \endentry
+    \entry{Noy2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=080dbdc55916fba96b059b27319722e0}{%
+           family={Noy},
+           familyi={N\bibinitperiod},
+           given={Shakked},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b9f79cd02a8a8507b540d4306217fc9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Whitney},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science (AAAS)}%
+      }
+      \strng{namehash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{fullhash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{fullhashraw}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{bibnamehash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{authorbibnamehash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{authornamehash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{authorfullhash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{authorfullhashraw}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1095-9203}
+      \field{journaltitle}{Science}
+      \field{month}{7}
+      \field{number}{6654}
+      \field{title}{Experimental evidence on the productivity effects of generative artificial intelligence}
+      \field{volume}{381}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{187\bibrangedash 192}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.adh2586
       \endverb
     \endentry
     \entry{Peng2023}{article}{}{}
@@ -601,6 +769,127 @@
       \verb 10.1016/j.jbusres.2024.114786
       \endverb
     \endentry
+    \entry{Brynjolfsson2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7bd9f54569cb8c0301da00ed49b5a752}{%
+           family={Brynjolfsson},
+           familyi={B\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9549ba5d9e9696208664346821d3ac14}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Danielle},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=526a7239b4cbed8ac82f3731346cd822}{%
+           family={Raymond},
+           familyi={R\bibinitperiod},
+           given={Lindsey},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press (OUP)}%
+      }
+      \strng{namehash}{00a6af65ff0bae825ed9db1b0be8f4fa}
+      \strng{fullhash}{52c6338e9f79371688e62392e04268b3}
+      \strng{fullhashraw}{52c6338e9f79371688e62392e04268b3}
+      \strng{bibnamehash}{52c6338e9f79371688e62392e04268b3}
+      \strng{authorbibnamehash}{52c6338e9f79371688e62392e04268b3}
+      \strng{authornamehash}{00a6af65ff0bae825ed9db1b0be8f4fa}
+      \strng{authorfullhash}{52c6338e9f79371688e62392e04268b3}
+      \strng{authorfullhashraw}{52c6338e9f79371688e62392e04268b3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1531-4650}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Generative AI at Work}
+      \field{volume}{140}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{889\bibrangedash 942}
+      \range{pages}{54}
+      \verb{doi}
+      \verb 10.1093/qje/qjae044
+      \endverb
+    \endentry
+    \entry{Cui2026}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=81c1ce3a2c61c096307b461b2bb3c78d}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Kevin\bibnamedelima Zheyuan},
+           giveni={K\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3c2cc443c71254678269de10d61d61c}{%
+           family={Demirer},
+           familyi={D\bibinitperiod},
+           given={Mert},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55c72fded884599743ce4812f8e05bb2}{%
+           family={Jaffe},
+           familyi={J\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0a683f7571420c1443a4485584bbca0}{%
+           family={Musolff},
+           familyi={M\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=369e0707d779067ef33cd3650d376b11}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Sida},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d00fb58e86bb95a6a846418f2dca46c2}{%
+           family={Salz},
+           familyi={S\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Institute for Operations Research}%
+        {the Management Sciences (INFORMS)}%
+      }
+      \strng{namehash}{e69e7e9c26ba916c36ba189d7e02c0ba}
+      \strng{fullhash}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{fullhashraw}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{bibnamehash}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{authorbibnamehash}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{authornamehash}{e69e7e9c26ba916c36ba189d7e02c0ba}
+      \strng{authorfullhash}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \strng{authorfullhashraw}{f06bde4ecd3bc7ae68e3b3de4ca8d199}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1526-5501}
+      \field{journaltitle}{Management Science}
+      \field{month}{2}
+      \field{title}{The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1287/mnsc.2025.00535
+      \endverb
+    \endentry
     \entry{Gillespie2025}{report}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=6ccd271b98d3e1d501c90b25f03ffb1f}{%
@@ -873,6 +1162,53 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.3390/admsci14120316
+      \endverb
+    \endentry
+    \entry{Noy2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=080dbdc55916fba96b059b27319722e0}{%
+           family={Noy},
+           familyi={N\bibinitperiod},
+           given={Shakked},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b9f79cd02a8a8507b540d4306217fc9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Whitney},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science (AAAS)}%
+      }
+      \strng{namehash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{fullhash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{fullhashraw}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{bibnamehash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{authorbibnamehash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{authornamehash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{authorfullhash}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \strng{authorfullhashraw}{ecc9ff3700d14e9d562ab1daa85f1562}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1095-9203}
+      \field{journaltitle}{Science}
+      \field{month}{7}
+      \field{number}{6654}
+      \field{title}{Experimental evidence on the productivity effects of generative artificial intelligence}
+      \field{volume}{381}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{187\bibrangedash 192}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.adh2586
       \endverb
     \endentry
     \entry{Peng2023}{article}{}{}

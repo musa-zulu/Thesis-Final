@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  28 AUG 2026 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  28 AUG 2026 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,12 +1153,12 @@ Chapter 1.
 
 
 
-] [2]) [3] [4]
+] [2] [3]) [4] [5]
 \openout2 = `ch2_literature.aux'.
 
  (ch2_literature.tex
 Chapter 2.
-) [5
+) [6
 
 
 
@@ -1168,7 +1168,7 @@ Chapter 2.
 
  (ch3_methodology.tex
 Chapter 3.
-) [6
+) [7
 
 
 
@@ -1178,7 +1178,7 @@ Chapter 3.
 
  (ch4_results.tex
 Chapter 4.
-) [7
+) [8
 
 
 
@@ -1188,7 +1188,7 @@ Chapter 4.
 
  (ch5_discussion.tex
 Chapter 5.
-) [8
+) [9
 
 
 
@@ -1198,16 +1198,16 @@ Chapter 5.
 
  (ch6_conclusion.tex
 Chapter 6.
-) [9
+) [10
 
 
 
 
-] [10
+] [11
 
 
 
-] [11]
+] [12]
 \openout2 = `appendix.aux'.
 
  (appendix.tex (app1_ethical_clearance_certificate.tex
@@ -1217,7 +1217,7 @@ Appendix A.
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=291, 597.55246p
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=306, 597.55246p
 t x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1235,7 +1235,7 @@ _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=293, page=1, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=308, page=1, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1249,7 +1249,7 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-[12
+[13
 
 
 ]
@@ -1271,14 +1271,14 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [13
+ [14
 
  <./PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=334, page=2, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=349, page=2, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1298,16 +1298,16 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-[14
+[15
 
  <./PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf>])
 (app2_sample_chapter.tex
 Appendix B.
-) (app3_sample_chapter.tex [15
+) (app3_sample_chapter.tex [16
 
 ]
 Appendix C.
-)) [16
+)) [17
 
 ] (main.aux (ch1_introduction.aux) (ch2_literature.aux)
 (ch3_methodology.aux) (ch4_results.aux) (ch5_discussion.aux)
@@ -1316,26 +1316,17 @@ Appendix C.
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 45001FF522B2E009E112174FFEBAA54A;4286.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31375 strings out of 467871
- 595136 string characters out of 5418377
- 1583549 words of memory out of 5000000
- 59786 multiletter control sequences out of 15000+600000
+ 31398 strings out of 467871
+ 595850 string characters out of 5418377
+ 1583750 words of memory out of 5000000
+ 59805 multiletter control sequences out of 15000+600000
  636099 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,18n,104p,2496b,5185s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1347,9 +1338,9 @@ ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bhuta/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bhuta/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/bhuta/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (25 pages, 740829 bytes).
+Output written on main.pdf (26 pages, 746401 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
  266 words of extra memory for PDF output out of 10000 (max. 10000000)
 
