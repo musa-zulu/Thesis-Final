@@ -20,15 +20,15 @@
 \contentsline {subsection}{\numberline {1.7.2}Delimitation}{8}{subsection.23}%
 \contentsline {subsection}{\numberline {1.7.3}Brief Limitations}{9}{subsection.24}%
 \contentsline {section}{\numberline {1.8}Theoretical and conceptual framework}{9}{section.25}%
-\contentsline {section}{\numberline {1.9}Dissertation structure}{11}{section.27}%
-\contentsline {section}{\numberline {1.10}Chapter summary}{12}{section.28}%
-\contentsline {chapter}{\numberline {2}Literature Review}{13}{chapter.29}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{14}{chapter.30}%
-\contentsline {chapter}{\numberline {4}Results}{15}{chapter.31}%
-\contentsline {chapter}{\numberline {5}Discussion}{16}{chapter.32}%
-\contentsline {chapter}{\numberline {6}Conclusion}{17}{chapter.33}%
-\contentsline {chapter}{References}{18}{section*.34}%
-\contentsline {chapter}{\numberline {A}Ethical Clearance Certificate}{21}{appendix.36}%
-\contentsline {chapter}{\numberline {B}Appendix Chapter}{24}{appendix.37}%
-\contentsline {section}{\numberline {B.1}Appendix section}{24}{section.38}%
-\contentsline {chapter}{\numberline {C}Another Appendix Chapter}{25}{appendix.39}%
+\contentsline {section}{\numberline {1.9}Dissertation structure}{12}{section.27}%
+\contentsline {section}{\numberline {1.10}Chapter summary}{13}{section.29}%
+\contentsline {chapter}{\numberline {2}Literature Review}{14}{chapter.30}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{15}{chapter.31}%
+\contentsline {chapter}{\numberline {4}Results}{16}{chapter.32}%
+\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.33}%
+\contentsline {chapter}{\numberline {6}Conclusion}{18}{chapter.34}%
+\contentsline {chapter}{References}{19}{section*.35}%
+\contentsline {chapter}{\numberline {A}Ethical Clearance Certificate}{22}{appendix.37}%
+\contentsline {chapter}{\numberline {B}Appendix Chapter}{25}{appendix.38}%
+\contentsline {section}{\numberline {B.1}Appendix section}{25}{section.39}%
+\contentsline {chapter}{\numberline {C}Another Appendix Chapter}{26}{appendix.40}%

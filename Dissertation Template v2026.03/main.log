@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  29 AUG 2026 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  29 AUG 2026 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1154,23 +1154,30 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5] [6] [7] [8] [9]
-<Images/TheoreticalFramework.png, id=349, 768.37062pt x 510.90875pt>
+<Images/TheoreticalFramework.png, id=351, 768.37062pt x 510.90875pt>
 File: Images/TheoreticalFramework.png Graphic file (type png)
 <use Images/TheoreticalFramework.png>
 Package pdftex.def Info: Images/TheoreticalFramework.png  used on input line 14
 4.
 (pdftex.def)             Requested size: 452.9679pt x 301.19188pt.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 161--166
+ [10] [11 <./Images/TheoreticalFramework.png>]
+<Images/dissertation_structure.png, id=362, 362.5545pt x 492.6405pt>
+File: Images/dissertation_structure.png Graphic file (type png)
+<use Images/dissertation_structure.png>
+Package pdftex.def Info: Images/dissertation_structure.png  used on input line 
+162.
+(pdftex.def)             Requested size: 452.9679pt x 615.5285pt.
+ [12 <./Images/dissertation_structure.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 171--176
 
  []
 
-[11 <./Images/TheoreticalFramework.png>]) [12]
+) [13]
 \openout2 = `ch2_literature.aux'.
 
  (ch2_literature.tex
 Chapter 2.
-) [13
+) [14
 
 
 
@@ -1180,7 +1187,7 @@ Chapter 2.
 
  (ch3_methodology.tex
 Chapter 3.
-) [14
+) [15
 
 
 
@@ -1190,7 +1197,7 @@ Chapter 3.
 
  (ch4_results.tex
 Chapter 4.
-) [15
+) [16
 
 
 
@@ -1200,7 +1207,7 @@ Chapter 4.
 
  (ch5_discussion.tex
 Chapter 5.
-) [16
+) [17
 
 
 
@@ -1210,16 +1217,16 @@ Chapter 5.
 
  (ch6_conclusion.tex
 Chapter 6.
-) [17
+) [18
 
 
 
 
-] [18
+] [19
 
 
 
-] [19] [20]
+] [20] [21]
 \openout2 = `appendix.aux'.
 
  (appendix.tex (app1_ethical_clearance_certificate.tex
@@ -1229,7 +1236,7 @@ Appendix A.
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=429, 597.55246p
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=438, 597.55246p
 t x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1247,7 +1254,7 @@ _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=431, page=1, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=440, page=1, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1261,7 +1268,7 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-[21
+[22
 
 
 ]
@@ -1283,14 +1290,14 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [22
+ [23
 
  <./PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=473, page=2, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=481, page=2, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1310,16 +1317,16 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-[23
+[24
 
  <./PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf>])
 (app2_sample_chapter.tex
 Appendix B.
-) (app3_sample_chapter.tex [24
+) (app3_sample_chapter.tex [25
 
 ]
 Appendix C.
-)) [25
+)) [26
 
 ] (main.aux (ch1_introduction.aux) (ch2_literature.aux)
 (ch3_methodology.aux) (ch4_results.aux) (ch5_discussion.aux)
@@ -1329,16 +1336,16 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A25A99F21E73E088953FA16FE4C87AEB;4686.
+(rerunfilecheck)             Checksum: B0EB75DE7EE14E489C0FD021DA009FBB;4686.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31552 strings out of 467871
- 599894 string characters out of 5418377
- 1588992 words of memory out of 5000000
- 59933 multiletter control sequences out of 15000+600000
+ 31566 strings out of 467871
+ 600373 string characters out of 5418377
+ 1589048 words of memory out of 5000000
+ 59945 multiletter control sequences out of 15000+600000
  636406 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,18n,104p,2496b,5185s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1350,9 +1357,9 @@ ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bhuta/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bhuta/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/bhuta/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (35 pages, 2763714 bytes).
+Output written on main.pdf (36 pages, 2845322 bytes).
 PDF statistics:
- 548 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 303 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 556 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
