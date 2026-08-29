@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  29 AUG 2026 20:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  29 AUG 2026 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -947,6 +947,9 @@ Package glossaries Info: Writing glossary file main.acn on input line 173.
 
 LaTeX Warning: Label `sec:Introduction' multiply defined.
 
+
+LaTeX Warning: Label `sec:Chapter summary' multiply defined.
+
 ) (ch3_methodology.aux) (ch4_results.aux) (ch5_discussion.aux)
 (ch6_conclusion.aux) (appendix.aux))
 \openout1 = `main.aux'.
@@ -1101,7 +1104,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 27.
 Package biblatex Info: Reference segment=0 on input line 27.
 \c@lstlisting=\count534
-<Images/UJ_RGB_Logo_01.jpg, id=227, 426.6339pt x 426.6339pt>
+<Images/UJ_RGB_Logo_01.jpg, id=231, 426.6339pt x 426.6339pt>
 File: Images/UJ_RGB_Logo_01.jpg Graphic file (type jpg)
 <use Images/UJ_RGB_Logo_01.jpg>
 Package pdftex.def Info: Images/UJ_RGB_Logo_01.jpg  used on input line 29.
@@ -1157,14 +1160,14 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5] [6] [7] [8] [9]
-<Images/TheoreticalFramework.png, id=466, 768.37062pt x 510.90875pt>
+<Images/TheoreticalFramework.png, id=471, 768.37062pt x 510.90875pt>
 File: Images/TheoreticalFramework.png Graphic file (type png)
 <use Images/TheoreticalFramework.png>
 Package pdftex.def Info: Images/TheoreticalFramework.png  used on input line 14
 4.
 (pdftex.def)             Requested size: 452.9679pt x 301.19188pt.
  [10] [11 <./Images/TheoreticalFramework.png>]
-<Images/dissertation_structure.png, id=477, 362.5545pt x 492.6405pt>
+<Images/dissertation_structure.png, id=482, 362.5545pt x 492.6405pt>
 File: Images/dissertation_structure.png Graphic file (type png)
 <use Images/dissertation_structure.png>
 Package pdftex.def Info: Images/dissertation_structure.png  used on input line 
@@ -1241,7 +1244,7 @@ Appendix A.
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=673, 597.55246p
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=678, 597.55246p
 t x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1259,7 +1262,7 @@ _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=675, page=1, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=680, page=1, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1302,7 +1305,7 @@ Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=717, page=2, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=722, page=2, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1345,16 +1348,20 @@ L3 programming layer <2025-12-24>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7361E1F962BE29ECCCE3B1B4EE573765;10461.
+(rerunfilecheck)             Checksum: 87C296373D2ACF5BE753474C623062FB;10594.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31732 strings out of 467871
- 603758 string characters out of 5418377
- 1592044 words of memory out of 5000000
- 60068 multiletter control sequences out of 15000+600000
+ 31734 strings out of 467871
+ 603780 string characters out of 5418377
+ 1592043 words of memory out of 5000000
+ 60069 multiletter control sequences out of 15000+600000
  636747 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,18n,104p,2496b,5185s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1367,9 +1374,9 @@ eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bhuta/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bhuta/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/bhuta/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (52 pages, 2918641 bytes).
+Output written on main.pdf (52 pages, 2919964 bytes).
 PDF statistics:
- 806 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
- 484 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
+ 492 words of extra memory for PDF output out of 10000 (max. 10000000)
 
