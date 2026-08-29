@@ -344,6 +344,61 @@
       \verb 10.1287/mnsc.2025.00535
       \endverb
     \endentry
+    \entry{Daly2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=120d7eb1b83ca2f154709f1d0a6cf782}{%
+           family={Daly},
+           familyi={D\bibinitperiod},
+           given={Sarah\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=641b4783aef546b3d31bb5d1c98bda85}{%
+           family={Wiewiora},
+           familyi={W\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d03b5a9a8681a24f7a4c037575c47ba}{%
+           family={Hearn},
+           familyi={H\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb29176ba06a87ce8e3899cc68f4b347}
+      \strng{fullhash}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{fullhashraw}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{bibnamehash}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{authorbibnamehash}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{authornamehash}{eb29176ba06a87ce8e3899cc68f4b347}
+      \strng{authorfullhash}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{authorfullhashraw}{b572d864c7509ee42295b20cfc867ddb}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0040-1625}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{title}{Shifting attitudes and trust in AI: Influences on organizational AI adoption}
+      \field{volume}{215}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{124108}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.techfore.2025.124108
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162525001398
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162525001398
+      \endverb
+      \keyw{Artificial intelligence,Trust in AI,Attitudes,AI adoption,Interview study}
+    \endentry
     \entry{FossoWamba2024}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=8d235c182cf71df9f98480e76d19e555}{%
@@ -1375,6 +1430,67 @@
       \verb{url}
       \verb https://doi.org/10.1080/10580530.2022.2085825
       \endverb
+    \endentry
+    \entry{Sergeyuk2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6713b112ebaa57007fbba15a47847c8b}{%
+           family={Sergeyuk},
+           familyi={S\bibinitperiod},
+           given={Agnia},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a696abd7057cadee04c65dd79f2d0bbf}{%
+           family={Golubev},
+           familyi={G\bibinitperiod},
+           given={Yaroslav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84de0a0da97e0b74d006aa091c46e0c6}{%
+           family={Bryksin},
+           familyi={B\bibinitperiod},
+           given={Timofey},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7991df34ab6f7cacecbbbffd7df908cf}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Iftekhar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9082268da56648813f99521e8e03dbe1}
+      \strng{fullhash}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{fullhashraw}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{bibnamehash}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{authorbibnamehash}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{authornamehash}{9082268da56648813f99521e8e03dbe1}
+      \strng{authorfullhash}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{authorfullhashraw}{ba69d3e642186d017604a1a10bbf22aa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0950-5849}
+      \field{journaltitle}{Information and Software Technology}
+      \field{title}{Using AI-based coding assistants in practice: State of affairs, perceptions, and ways forward}
+      \field{volume}{178}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{107610}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.infsof.2024.107610
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0950584924002155
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0950584924002155
+      \endverb
+      \keyw{LLMs,AI assistants,Software development lifecycle}
     \endentry
     \entry{Smit2024}{article}{}{}
       \name{author}{3}{}{%
@@ -1755,6 +1871,61 @@
       \verb 10.1287/mnsc.2025.00535
       \endverb
     \endentry
+    \entry{Daly2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=120d7eb1b83ca2f154709f1d0a6cf782}{%
+           family={Daly},
+           familyi={D\bibinitperiod},
+           given={Sarah\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=641b4783aef546b3d31bb5d1c98bda85}{%
+           family={Wiewiora},
+           familyi={W\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d03b5a9a8681a24f7a4c037575c47ba}{%
+           family={Hearn},
+           familyi={H\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb29176ba06a87ce8e3899cc68f4b347}
+      \strng{fullhash}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{fullhashraw}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{bibnamehash}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{authorbibnamehash}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{authornamehash}{eb29176ba06a87ce8e3899cc68f4b347}
+      \strng{authorfullhash}{b572d864c7509ee42295b20cfc867ddb}
+      \strng{authorfullhashraw}{b572d864c7509ee42295b20cfc867ddb}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0040-1625}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{title}{Shifting attitudes and trust in AI: Influences on organizational AI adoption}
+      \field{volume}{215}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{124108}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.techfore.2025.124108
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162525001398
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040162525001398
+      \endverb
+      \keyw{Artificial intelligence,Trust in AI,Attitudes,AI adoption,Interview study}
+    \endentry
     \entry{FossoWamba2024}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=8d235c182cf71df9f98480e76d19e555}{%
@@ -2786,6 +2957,67 @@
       \verb{url}
       \verb https://doi.org/10.1080/10580530.2022.2085825
       \endverb
+    \endentry
+    \entry{Sergeyuk2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6713b112ebaa57007fbba15a47847c8b}{%
+           family={Sergeyuk},
+           familyi={S\bibinitperiod},
+           given={Agnia},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a696abd7057cadee04c65dd79f2d0bbf}{%
+           family={Golubev},
+           familyi={G\bibinitperiod},
+           given={Yaroslav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84de0a0da97e0b74d006aa091c46e0c6}{%
+           family={Bryksin},
+           familyi={B\bibinitperiod},
+           given={Timofey},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7991df34ab6f7cacecbbbffd7df908cf}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Iftekhar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9082268da56648813f99521e8e03dbe1}
+      \strng{fullhash}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{fullhashraw}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{bibnamehash}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{authorbibnamehash}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{authornamehash}{9082268da56648813f99521e8e03dbe1}
+      \strng{authorfullhash}{ba69d3e642186d017604a1a10bbf22aa}
+      \strng{authorfullhashraw}{ba69d3e642186d017604a1a10bbf22aa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0950-5849}
+      \field{journaltitle}{Information and Software Technology}
+      \field{title}{Using AI-based coding assistants in practice: State of affairs, perceptions, and ways forward}
+      \field{volume}{178}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{107610}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.infsof.2024.107610
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0950584924002155
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0950584924002155
+      \endverb
+      \keyw{LLMs,AI assistants,Software development lifecycle}
     \endentry
     \entry{Smit2024}{article}{}{}
       \name{author}{3}{}{%
