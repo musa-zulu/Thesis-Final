@@ -782,6 +782,60 @@
       \verb 10.3390/systems13020105
       \endverb
     \endentry
+    \entry{Lui2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fcc288ba8d29e06a9518d71c8da58330}{%
+           family={Lui},
+           familyi={L\bibinitperiod},
+           given={Ariel\bibnamedelimb K.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9080983c8fee28f8a20599be4e12c733}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Maggie\bibnamedelimb C.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7608a02fb3ca1b07207deca99d5c9f27}{%
+           family={Ngai},
+           familyi={N\bibinitperiod},
+           given={Eric\bibnamedelimb W.\bibnamedelimi T.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{ecb5c2aec9c00a17e91aa90f012281a6}
+      \strng{fullhash}{652b5cf6506a064513d8428c30b7c681}
+      \strng{fullhashraw}{652b5cf6506a064513d8428c30b7c681}
+      \strng{bibnamehash}{652b5cf6506a064513d8428c30b7c681}
+      \strng{authorbibnamehash}{652b5cf6506a064513d8428c30b7c681}
+      \strng{authornamehash}{ecb5c2aec9c00a17e91aa90f012281a6}
+      \strng{authorfullhash}{652b5cf6506a064513d8428c30b7c681}
+      \strng{authorfullhashraw}{652b5cf6506a064513d8428c30b7c681}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{month}{2}
+      \field{number}{1-2}
+      \field{title}{Impact of artificial intelligence investment on firm value}
+      \field{volume}{308}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{373\bibrangedash 388}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s10479-020-03862-8
+      \endverb
+    \endentry
     \entry{Maentymaeki2022}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fcff5a2e2a2654eeec47437b16a22884}{%
@@ -1254,6 +1308,72 @@
       \range{pages}{22}
       \verb{doi}
       \verb 10.1108/k-07-2024-2002
+      \endverb
+    \endentry
+    \entry{Schneider2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d2952ae7a817db8473e2971cdb405ddc}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b48696fc8e5c480b1dad85e63ebb40da}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={Rene},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c451a6c81c1fbd10c1937d1a57590aa}{%
+           family={Meske},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8a4905d3efaa548f794164f29641e92}{%
+           family={Brocke},
+           familyi={B\bibinitperiod},
+           given={Jan\bibnamedelima Vom},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{517d7d29242a3f9ccd4912f190f0f9ab}
+      \strng{fullhash}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{fullhashraw}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{bibnamehash}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{authorbibnamehash}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{authornamehash}{517d7d29242a3f9ccd4912f190f0f9ab}
+      \strng{authorfullhash}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{authorfullhashraw}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Systems Management}
+      \field{number}{3}
+      \field{title}{Artificial Intelligence Governance For Businesses}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{229\bibrangedash 249}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/10580530.2022.2085825
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/10580530.2022.2085825
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/10580530.2022.2085825
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/10580530.2022.2085825
       \endverb
     \endentry
     \entry{Smit2024}{article}{}{}
@@ -2073,6 +2193,60 @@
       \verb 10.3390/systems13020105
       \endverb
     \endentry
+    \entry{Lui2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fcc288ba8d29e06a9518d71c8da58330}{%
+           family={Lui},
+           familyi={L\bibinitperiod},
+           given={Ariel\bibnamedelimb K.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9080983c8fee28f8a20599be4e12c733}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Maggie\bibnamedelimb C.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7608a02fb3ca1b07207deca99d5c9f27}{%
+           family={Ngai},
+           familyi={N\bibinitperiod},
+           given={Eric\bibnamedelimb W.\bibnamedelimi T.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{ecb5c2aec9c00a17e91aa90f012281a6}
+      \strng{fullhash}{652b5cf6506a064513d8428c30b7c681}
+      \strng{fullhashraw}{652b5cf6506a064513d8428c30b7c681}
+      \strng{bibnamehash}{652b5cf6506a064513d8428c30b7c681}
+      \strng{authorbibnamehash}{652b5cf6506a064513d8428c30b7c681}
+      \strng{authornamehash}{ecb5c2aec9c00a17e91aa90f012281a6}
+      \strng{authorfullhash}{652b5cf6506a064513d8428c30b7c681}
+      \strng{authorfullhashraw}{652b5cf6506a064513d8428c30b7c681}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{month}{2}
+      \field{number}{1-2}
+      \field{title}{Impact of artificial intelligence investment on firm value}
+      \field{volume}{308}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{373\bibrangedash 388}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s10479-020-03862-8
+      \endverb
+    \endentry
     \entry{Maentymaeki2022}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fcff5a2e2a2654eeec47437b16a22884}{%
@@ -2545,6 +2719,72 @@
       \range{pages}{22}
       \verb{doi}
       \verb 10.1108/k-07-2024-2002
+      \endverb
+    \endentry
+    \entry{Schneider2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d2952ae7a817db8473e2971cdb405ddc}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b48696fc8e5c480b1dad85e63ebb40da}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={Rene},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c451a6c81c1fbd10c1937d1a57590aa}{%
+           family={Meske},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8a4905d3efaa548f794164f29641e92}{%
+           family={Brocke},
+           familyi={B\bibinitperiod},
+           given={Jan\bibnamedelima Vom},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{517d7d29242a3f9ccd4912f190f0f9ab}
+      \strng{fullhash}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{fullhashraw}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{bibnamehash}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{authorbibnamehash}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{authornamehash}{517d7d29242a3f9ccd4912f190f0f9ab}
+      \strng{authorfullhash}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \strng{authorfullhashraw}{14052bd2f66b0b1d0ad7eda269a1d7d8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Systems Management}
+      \field{number}{3}
+      \field{title}{Artificial Intelligence Governance For Businesses}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{229\bibrangedash 249}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/10580530.2022.2085825
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/10580530.2022.2085825
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/10580530.2022.2085825
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/10580530.2022.2085825
       \endverb
     \endentry
     \entry{Smit2024}{article}{}{}
