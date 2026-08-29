@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  28 AUG 2026 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  29 AUG 2026 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,7 +1098,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 27.
 Package biblatex Info: Reference segment=0 on input line 27.
 \c@lstlisting=\count534
-<Images/UJ_RGB_Logo_01.jpg, id=103, 426.6339pt x 426.6339pt>
+<Images/UJ_RGB_Logo_01.jpg, id=139, 426.6339pt x 426.6339pt>
 File: Images/UJ_RGB_Logo_01.jpg Graphic file (type jpg)
 <use Images/UJ_RGB_Logo_01.jpg>
 Package pdftex.def Info: Images/UJ_RGB_Logo_01.jpg  used on input line 29.
@@ -1110,11 +1110,11 @@ Package pdftex.def Info: Images/UJ_RGB_Logo_01.jpg  used on input line 29.
 {C:/Users/bhuta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/UJ_
 RGB_Logo_01.jpg>] [1
 
-] [2
-
-] [3
+] [2] [3
 
 ] [4
+
+] [5
 
 ] (main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
@@ -1127,21 +1127,21 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 (C:\Users\bhuta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[5
+[6
 
 ])
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
- [6]
+ [7]
 No file main.acr.
-[7
+[8
 
 ] (main.lof)
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
- [8
+ [9
 
 
 ]
@@ -1153,25 +1153,24 @@ Chapter 1.
 
 
 
-] [2]
-<Images/mandelbrot.png, id=193, 562.2606pt x 421.575pt>
-File: Images/mandelbrot.png Graphic file (type png)
-<use Images/mandelbrot.png>
-Package pdftex.def Info: Images/mandelbrot.png  used on input line 83.
-(pdftex.def)             Requested size: 271.7835pt x 203.78175pt.
+] [2] [3] [4] [5] [6] [7] [8] [9]
+<Images/TheoreticalFramework.png, id=349, 768.37062pt x 510.90875pt>
+File: Images/TheoreticalFramework.png Graphic file (type png)
+<use Images/TheoreticalFramework.png>
+Package pdftex.def Info: Images/TheoreticalFramework.png  used on input line 14
+4.
+(pdftex.def)             Requested size: 452.9679pt x 301.19188pt.
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 161--166
 
-(C:\Users\bhuta\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 117.
+ []
 
-[3 <./Images/mandelbrot.png (PNG copy)>] [4]) [5]
+[11 <./Images/TheoreticalFramework.png>]) [12]
 \openout2 = `ch2_literature.aux'.
 
  (ch2_literature.tex
 Chapter 2.
-) [6
+) [13
 
 
 
@@ -1181,7 +1180,7 @@ Chapter 2.
 
  (ch3_methodology.tex
 Chapter 3.
-) [7
+) [14
 
 
 
@@ -1191,7 +1190,7 @@ Chapter 3.
 
  (ch4_results.tex
 Chapter 4.
-) [8
+) [15
 
 
 
@@ -1201,7 +1200,7 @@ Chapter 4.
 
  (ch5_discussion.tex
 Chapter 5.
-) [9
+) [16
 
 
 
@@ -1211,16 +1210,16 @@ Chapter 5.
 
  (ch6_conclusion.tex
 Chapter 6.
-) [10
+) [17
 
 
 
 
-] [11
+] [18
 
 
 
-]
+] [19] [20]
 \openout2 = `appendix.aux'.
 
  (appendix.tex (app1_ethical_clearance_certificate.tex
@@ -1230,7 +1229,7 @@ Appendix A.
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=288, 597.55246p
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=429, 597.55246p
 t x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1248,7 +1247,7 @@ _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=290, page=1, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=431, page=1, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1262,7 +1261,7 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-[12
+[21
 
 
 ]
@@ -1284,14 +1283,14 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [13
+ [22
 
  <./PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=331, page=2, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=473, page=2, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1311,16 +1310,16 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-[14
+[23
 
  <./PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf>])
 (app2_sample_chapter.tex
 Appendix B.
-) (app3_sample_chapter.tex [15
+) (app3_sample_chapter.tex [24
 
 ]
 Appendix C.
-)) [16
+)) [25
 
 ] (main.aux (ch1_introduction.aux) (ch2_literature.aux)
 (ch3_methodology.aux) (ch4_results.aux) (ch5_discussion.aux)
@@ -1330,44 +1329,30 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CDDC8031AC651B369107DA1A6136C871;3240.
+(rerunfilecheck)             Checksum: A25A99F21E73E088953FA16FE4C87AEB;4686.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32246 strings out of 467871
- 603910 string characters out of 5418377
- 1638986 words of memory out of 5000000
- 60633 multiletter control sequences out of 15000+600000
- 638002 words of font info for 77 fonts, out of 8000000 for 9000
+ 31552 strings out of 467871
+ 599894 string characters out of 5418377
+ 1588992 words of memory out of 5000000
+ 59933 multiletter control sequences out of 15000+600000
+ 636406 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,18n,104p,2496b,5185s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{glo:msa} has been referenced but does not exist, re
-placed by a fixed one
-
- <C:\Users\bhuta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm10
-95.pk><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/bhuta/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/bhuta/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/bhuta/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/b
-huta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsl10.pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmti10.pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/bhuta/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/bhuta/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (25 pages, 906330 bytes).
+<C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bhuta/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bhuta/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/bhuta/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (35 pages, 2763714 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 548 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
