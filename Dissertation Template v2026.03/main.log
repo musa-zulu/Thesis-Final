@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  29 AUG 2026 13:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.2)  29 AUG 2026 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,7 +1098,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 27.
 Package biblatex Info: Reference segment=0 on input line 27.
 \c@lstlisting=\count534
-<Images/UJ_RGB_Logo_01.jpg, id=123, 426.6339pt x 426.6339pt>
+<Images/UJ_RGB_Logo_01.jpg, id=147, 426.6339pt x 426.6339pt>
 File: Images/UJ_RGB_Logo_01.jpg Graphic file (type jpg)
 <use Images/UJ_RGB_Logo_01.jpg>
 Package pdftex.def Info: Images/UJ_RGB_Logo_01.jpg  used on input line 29.
@@ -1154,19 +1154,19 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5] [6] [7]
-<Images/TheoreticalFramework.png, id=315, 768.37062pt x 510.90875pt>
+<Images/TheoreticalFramework.png, id=345, 768.37062pt x 510.90875pt>
 File: Images/TheoreticalFramework.png Graphic file (type png)
 <use Images/TheoreticalFramework.png>
 Package pdftex.def Info: Images/TheoreticalFramework.png  used on input line 81
 .
 (pdftex.def)             Requested size: 452.9679pt x 301.19188pt.
- [8]) [9 <./Images/TheoreticalFramework.png>]
+ [8] [9 <./Images/TheoreticalFramework.png>]
+[10]) [11] [12]
 \openout2 = `ch2_literature.aux'.
 
-
-(ch2_literature.tex
+ (ch2_literature.tex
 Chapter 2.
-) [10
+) [13
 
 
 
@@ -1176,7 +1176,7 @@ Chapter 2.
 
  (ch3_methodology.tex
 Chapter 3.
-) [11
+) [14
 
 
 
@@ -1186,7 +1186,7 @@ Chapter 3.
 
  (ch4_results.tex
 Chapter 4.
-) [12
+) [15
 
 
 
@@ -1196,7 +1196,7 @@ Chapter 4.
 
  (ch5_discussion.tex
 Chapter 5.
-) [13
+) [16
 
 
 
@@ -1206,16 +1206,16 @@ Chapter 5.
 
  (ch6_conclusion.tex
 Chapter 6.
-) [14
+) [17
 
 
 
 
-] [15
+] [18
 
 
 
-] [16] [17]
+] [19] [20]
 \openout2 = `appendix.aux'.
 
  (appendix.tex (app1_ethical_clearance_certificate.tex
@@ -1225,7 +1225,7 @@ Appendix A.
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=393, 597.55246p
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=446, 597.55246p
 t x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1243,7 +1243,7 @@ _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=395, page=1, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=448, page=1, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1257,7 +1257,7 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-[18
+[21
 
 
 ]
@@ -1279,14 +1279,14 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page1 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [19
+ [22
 
  <./PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./PDF_Includes/7c_SCiiSREC_Ethical_Clearance
 _Certificate.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=436, page=2, 59
+<PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf, id=490, page=2, 59
 7.55246pt x 845.07718pt>
 File: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf Graphic file (
 type pdf)
@@ -1306,16 +1306,16 @@ type pdf)
 Package pdftex.def Info: PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate
 .pdf , page2 used on input line 7.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-[20
+[23
 
  <./PDF_Includes/7c_SCiiSREC_Ethical_Clearance_Certificate.pdf>])
 (app2_sample_chapter.tex
 Appendix B.
-) (app3_sample_chapter.tex [21
+) (app3_sample_chapter.tex [24
 
 ]
 Appendix C.
-)) [22
+)) [25
 
 ] (main.aux (ch1_introduction.aux) (ch2_literature.aux)
 (ch3_methodology.aux) (ch4_results.aux) (ch5_discussion.aux)
@@ -1325,17 +1325,17 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 671FB67FD02E0C191FE7679CE3A5B578;4312.
+(rerunfilecheck)             Checksum: D33C8CDCAE7B68CCB584DEB488536F18;5219.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31532 strings out of 467871
- 599627 string characters out of 5418377
- 1588793 words of memory out of 5000000
- 59920 multiletter control sequences out of 15000+600000
- 636099 words of font info for 70 fonts, out of 8000000 for 9000
+ 31565 strings out of 467871
+ 600095 string characters out of 5418377
+ 1589160 words of memory out of 5000000
+ 59944 multiletter control sequences out of 15000+600000
+ 636406 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,18n,104p,2496b,5185s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/bhuta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1346,9 +1346,9 @@ ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bhuta/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bhuta/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/bhuta/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (32 pages, 2753720 bytes).
+Output written on main.pdf (35 pages, 2767368 bytes).
 PDF statistics:
- 511 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 565 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
