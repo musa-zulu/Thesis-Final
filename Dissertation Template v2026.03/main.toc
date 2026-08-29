@@ -2,8 +2,8 @@
 \contentsline {chapter}{Declaration}{iii}{chapter*.2}%
 \contentsline {chapter}{Dedication}{iv}{chapter*.3}%
 \contentsline {chapter}{Acknowledgements}{v}{chapter*.4}%
-\contentsline {chapter}{List of Acronyms}{viii}{section*.7}%
-\contentsline {chapter}{List of Figures}{ix}{section*.8}%
+\contentsline {chapter}{List of Acronyms}{ix}{section*.7}%
+\contentsline {chapter}{List of Figures}{x}{section*.8}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.11}%
 \contentsline {section}{\numberline {1.2}Background}{1}{section.12}%
@@ -20,15 +20,37 @@
 \contentsline {subsection}{\numberline {1.7.2}Delimitation}{8}{subsection.23}%
 \contentsline {subsection}{\numberline {1.7.3}Brief Limitations}{9}{subsection.24}%
 \contentsline {section}{\numberline {1.8}Theoretical and conceptual framework}{9}{section.25}%
-\contentsline {section}{\numberline {1.9}Dissertation structure}{11}{section.27}%
-\contentsline {section}{\numberline {1.10}Chapter summary}{12}{section.28}%
-\contentsline {chapter}{\numberline {2}Literature Review}{13}{chapter.29}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{14}{chapter.30}%
-\contentsline {chapter}{\numberline {4}Results}{15}{chapter.31}%
-\contentsline {chapter}{\numberline {5}Discussion}{16}{chapter.32}%
-\contentsline {chapter}{\numberline {6}Conclusion}{17}{chapter.33}%
-\contentsline {chapter}{References}{18}{section*.34}%
-\contentsline {chapter}{\numberline {A}Ethical Clearance Certificate}{21}{appendix.36}%
-\contentsline {chapter}{\numberline {B}Appendix Chapter}{24}{appendix.37}%
-\contentsline {section}{\numberline {B.1}Appendix section}{24}{section.38}%
-\contentsline {chapter}{\numberline {C}Another Appendix Chapter}{25}{appendix.39}%
+\contentsline {section}{\numberline {1.9}Dissertation structure}{12}{section.27}%
+\contentsline {section}{\numberline {1.10}Chapter summary}{13}{section.29}%
+\contentsline {chapter}{\numberline {2}Literature Review}{14}{chapter.30}%
+\contentsline {section}{\numberline {2.1}Introduction}{14}{section.31}%
+\contentsline {section}{\numberline {2.2}Generative AI and Productivity: From Task Performance to Organizational Outcomes}{15}{section.32}%
+\contentsline {subsection}{\numberline {2.2.1}Effects on productivity at the task level.}{16}{subsection.33}%
+\contentsline {subsection}{\numberline {2.2.2}Effects on integration and coordination at the workflow level.}{17}{subsection.34}%
+\contentsline {subsection}{\numberline {2.2.3}Effects on the firm's business finance and innovation at the firm level.}{17}{subsection.35}%
+\contentsline {section}{\numberline {2.3}Measuring ROI in AI Contexts: Financial, Operational, and Strategic Dimensions}{18}{section.36}%
+\contentsline {subsection}{\numberline {2.3.1}Time saved translates to reduced labour costs.}{18}{subsection.37}%
+\contentsline {subsection}{\numberline {2.3.2}Increased productivity.}{18}{subsection.38}%
+\contentsline {subsection}{\numberline {2.3.3}Defects reduced.}{19}{subsection.39}%
+\contentsline {subsection}{\numberline {2.3.4}Reduction in rework costs.}{19}{subsection.40}%
+\contentsline {subsection}{\numberline {2.3.5}Faster time to market.}{19}{subsection.41}%
+\contentsline {subsection}{\numberline {2.3.6}Increased revenues via innovation.}{19}{subsection.42}%
+\contentsline {subsection}{\numberline {2.3.7}The ideal model for calculating ROI on AI should include: }{20}{subsection.43}%
+\contentsline {section}{\numberline {2.4}Organizational Culture as a Mediator of AI Value Realization.}{22}{section.44}%
+\contentsline {section}{\numberline {2.5}Leadership and AI Governance.}{23}{section.45}%
+\contentsline {subsection}{\numberline {2.5.1}Executive sponsorship.}{23}{subsection.46}%
+\contentsline {subsection}{\numberline {2.5.2}Resource allocation.}{24}{subsection.47}%
+\contentsline {subsection}{\numberline {2.5.3}Metrics alignment.}{24}{subsection.48}%
+\contentsline {subsection}{\numberline {2.5.4}Policy enforcement.}{24}{subsection.49}%
+\contentsline {subsection}{\numberline {2.5.5}Ethical considerations.}{25}{subsection.50}%
+\contentsline {section}{\numberline {2.6}South African Context and Emerging Market Considerations.}{26}{section.51}%
+\contentsline {section}{\numberline {2.7}Synthesis and Research Gap.}{26}{section.52}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{29}{chapter.53}%
+\contentsline {chapter}{\numberline {4}Results}{30}{chapter.54}%
+\contentsline {chapter}{\numberline {5}Discussion}{31}{chapter.55}%
+\contentsline {chapter}{\numberline {6}Conclusion}{32}{chapter.56}%
+\contentsline {chapter}{References}{33}{section*.57}%
+\contentsline {chapter}{\numberline {A}Ethical Clearance Certificate}{37}{appendix.59}%
+\contentsline {chapter}{\numberline {B}Appendix Chapter}{40}{appendix.60}%
+\contentsline {section}{\numberline {B.1}Appendix section}{40}{section.61}%
+\contentsline {chapter}{\numberline {C}Another Appendix Chapter}{41}{appendix.62}%
