@@ -10,7 +10,7 @@ This chapter presents and justifies the methodological approach adopted to exami
 
 \section{Research Philosophy}
 \label{sec:Research Philosophy}
-This research adopted a post-positivist epistemology. Post-positivists hold that social phenomena can be examined through structured observation, while recognising that measurement can never be entirely exact \autocite{Creswell2018}.
+The study uses a post-positivist approach epistemology. In post-positivist philosophy, social phenomena can be studied through systematic observation, yet measurement therein can never be precise \autocite{Creswell2018}.
 
 \subsection{Suitability of Post-Positivism for This Study}
 \label{sec:Post-positivist theory suits this research because it will}
@@ -18,7 +18,7 @@ This research adopted a post-positivist epistemology. Post-positivists hold that
 \begin{itemize}
 	\item \textbf{Testing hypothesised relationships}
 \end{itemize}
-Testing hypothesised relationships involves evaluating the extent to which the relationships proposed in the conceptual framework are supported by empirical data. In quantitative research, hypotheses are typically derived from theoretical frameworks established in the literature and are then tested against the data collected, enabling the researcher to determine whether relationships exist between variables such as organisational culture, leadership style, AI adoption, and return on investment. Hypothesis testing is central to quantitative research because it allows theoretical frameworks to be evaluated and indicates whether the data support or refute the hypothesised relationships \autocite{Creswell2018}.
+When testing relationships between concepts, one must verify the relationships indicated in the conceptual scheme against empirical data. In quantitative research, hypotheses are usually derived from the structure theories provided by literature. Thus, in quantitative studies, the researcher can state whether any relationships exist between such variables as organizational culture, leadership style, AI adoption, or ROI, etc. Hypothesis testing in quantitative research is of utmost importance since it allows testing theoretical schemes \autocite{Creswell2018}.
 
 \begin{itemize}
 	\item \textbf{Measuring latent variables}
@@ -57,7 +57,30 @@ Consistent with the conceptual framework and the post-positivist emphasis on tes
 	\item[\textbf{H5:}] The effective adoption of AI coding assistants mediates the relationship between (a) organisational culture and (b) leadership practices, and the productivity and ROI outcomes associated with AI coding assistants.
 \end{itemize}
 
-These hypotheses reflect the study's central proposition that organisational and leadership factors do not influence ROI directly, but operate through their effect on how effectively AI coding assistants are adopted and used within software engineering teams.
+These hypotheses reflect the study's central proposition that organisational and leadership factors do not influence ROI directly, but operate through their effect on how effectively AI coding assistants are adopted and used within software engineering teams. Figure~\ref{fig:hypothesised_model} presents this hypothesised model diagrammatically.
+
+\begin{figure}[htbp]
+	\centering
+	\resizebox{\linewidth}{!}{%
+		\begin{tikzpicture}[
+			construct/.style={draw, rounded corners=8pt, align=center, minimum width=2.8cm, minimum height=1.1cm, font=\small},
+			every node/.style={font=\small}
+			]
+			\node[construct] (OC) at (0,2.2) {Organisational\\Culture};
+			\node[construct] (LP) at (0,0) {Leadership\\Practices};
+			\node[construct] (EA) at (4.6,1.1) {Effective Adoption of\\AI Coding Assistants};
+			\node[construct] (PROD) at (9.2,1.1) {Software Engineering\\Productivity};
+			\node[construct] (ROI) at (13.4,1.1) {Return on\\Investment (ROI)};
+			
+			\draw[->, thick] (OC) -- (EA) node[midway, above, sloped] {H1};
+			\draw[->, thick] (LP) -- (EA) node[midway, below, sloped] {H2};
+			\draw[->, thick] (EA) -- (PROD) node[midway, above] {H3};
+			\draw[->, thick] (PROD) -- (ROI) node[midway, above] {H4};
+		\end{tikzpicture}%
+	}
+	\caption{Hypothesised structural model. Effective adoption of AI coding assistants is hypothesised to mediate the relationship between organisational culture and leadership practices, and the productivity and ROI outcomes associated with AI coding assistants (H5).}
+	\label{fig:hypothesised_model}
+\end{figure}
 
 \section{Population and Sampling}
 \label{sec:Population and Sampling}
