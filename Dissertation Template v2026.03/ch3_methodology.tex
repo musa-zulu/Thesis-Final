@@ -18,12 +18,12 @@ The study uses a post-positivist approach epistemology. In post-positivist philo
 \begin{itemize}
 	\item \textbf{Testing hypothesised relationships}
 \end{itemize}
-When testing relationships between concepts, one must verify the relationships indicated in the conceptual scheme against empirical data. In quantitative research, hypotheses are usually derived from the structure theories provided by literature. Thus, in quantitative studies, the researcher can state whether any relationships exist between such variables as organizational culture, leadership style, AI adoption, or ROI, etc. Hypothesis testing in quantitative research is of utmost importance since it allows testing theoretical schemes \autocite{Creswell2018}.
+When testing relationships between concepts, one must verify the relationships indicated in the conceptual scheme against empirical data. In quantitative research, hypotheses are usually derived from the structure theories provided by literature. Thus, in quantitative studies, the researcher can state whether any relationships exist between such variables as organisational culture, leadership style, AI adoption, or ROI, etc. Hypothesis testing in quantitative research is of utmost importance since it allows testing theoretical schemes \autocite{Creswell2018}.
 
 \begin{itemize}
 	\item \textbf{Measuring latent variables}
 \end{itemize}
-Latent constructs are abstract concepts that cannot be measured directly, although they can be assessed through multiple indicators. In this study, organisational culture, leadership style, and the effectiveness of AI adoption were treated as latent constructs, as each represents complex organisational behaviour rather than a directly observable variable. Such constructs were measured through structured survey items and scales that had previously been validated for this purpose \autocite{Hair2019}.
+Defined as abstract constructs, latent constructs cannot be measured observationally. However, multidimensional indicators are able to reveal their significance. For this research terminology of the latent constructs was applied to the organisational culture, leadership style and AI adoption effectiveness, as they all represent complicated organisational behaviors. This terminology implies that the investigation of these constructs was possible thanks to structured inquiries and scales specifically developed for this purpose \autocite{Hair2019}.
 
 \begin{itemize}
 	\item \textbf{Estimating causal processes}
@@ -33,7 +33,7 @@ Estimating causal pathways requires consideration of how one variable influences
 \begin{itemize}
 	\item \textbf{Generating generalisable findings}
 \end{itemize}
-A key objective of quantitative research is to produce results that can be generalised beyond the specific sample studied. By drawing on a sufficiently large sample of software engineering professionals, this study sought to generalise its findings to a broader population of organisations. Statistical techniques were used to estimate the likelihood that the observed associations reflected genuine relationships rather than chance, providing evidence of value to both organisations and the academic community \autocite{Bryman2016}.
+The primary goal of quantitative research is to yield results which are applicable to a larger population than the sample considered. In this study, a large enough sample of software engineering professionals had been drawn in order to make the findings generalisable to a larger group of organisations. Statistical tools had also been applied to calculate the probability of the observed associations being real effect as compared to the random chance event, thus bringing important evidence both for practitioners and researchers \autocite{Bryman2016}.
 
 The use of structured surveys and objective performance measures is consistent with the post-positivist emphasis on measurement \autocite{Hair2019}.
 
@@ -41,9 +41,9 @@ The use of structured surveys and objective performance measures is consistent w
 \label{sec:Research Design}
 \subsection{Quantitative Explanatory Design}
 \label{sec:Quantitative Explanatory Design}
-The study employed a cross-sectional quantitative design to test the hypothesised relationships between organisational culture, leadership practices, effective AI adoption, productivity, and ROI.
+The research utilised a cross-sectional quantitative approach to investigate the proposed links between organisational culture, leadership practices, efficient AI adoption, productivity, and return on investment.
 
-Quantitative methods are well suited to examining relationships between variables and testing theoretical models \autocite{Bryman2016}. Because the conceptual framework proposed mediating relationships among these constructs, the study drew on the methodological strengths of structural equation modelling (SEM) to examine the relationships between variables simultaneously, thereby enabling the estimation of direct, indirect, and total effects \autocite{Hair2019}.
+Quantitative techniques are ideally suited to the acquisition of knowledge about the nature of the relationships between variables and the verification of theoretical models \autocite{Bryman2016}. Since the conceptual framework indicated the existence of mediating relationships, the study was able to use the strengths of structural equation modelling (SEM) which allows for simultaneous examination of the relationships under consideration , evaluation of the direct, indirect, and total effects of the variables \autocite{Hair2019}.
 
 \section{Research Hypotheses}
 \label{sec:Research Hypotheses}
@@ -59,28 +59,28 @@ Consistent with the conceptual framework and the post-positivist emphasis on tes
 
 These hypotheses reflect the study's central proposition that organisational and leadership factors do not influence ROI directly, but operate through their effect on how effectively AI coding assistants are adopted and used within software engineering teams. Figure~\ref{fig:hypothesised_model} presents this hypothesised model diagrammatically.
 
-\begin{figure}[htbp]
-	\centering
-	\resizebox{\linewidth}{!}{%
-		\begin{tikzpicture}[
-			construct/.style={draw, rounded corners=8pt, align=center, minimum width=2.8cm, minimum height=1.1cm, font=\small},
-			every node/.style={font=\small}
-			]
-			\node[construct] (OC) at (0,2.2) {Organisational\\Culture};
-			\node[construct] (LP) at (0,0) {Leadership\\Practices};
-			\node[construct] (EA) at (4.6,1.1) {Effective Adoption of\\AI Coding Assistants};
-			\node[construct] (PROD) at (9.2,1.1) {Software Engineering\\Productivity};
-			\node[construct] (ROI) at (13.4,1.1) {Return on\\Investment (ROI)};
+%\begin{figure}[htbp]
+%	\centering
+%	\resizebox{\linewidth}{!}{%
+%		\begin{tikzpicture}[
+%			construct/.style={draw, rounded corners=8pt, align=center, minimum width=2.8cm, minimum height=1.1cm, font=\small},
+%			every node/.style={font=\small}
+%			]
+%			\node[construct] (OC) at (0,2.2) {Organisational\\Culture};
+%			\node[construct] (LP) at (0,0) {Leadership\\Practices};
+%			\node[construct] (EA) at (4.6,1.1) {Effective Adoption of\\AI Coding Assistants};
+%			\node[construct] (PROD) at (9.2,1.1) {Software Engineering\\Productivity};
+%			\node[construct] (ROI) at (13.4,1.1) {Return on\\Investment (ROI)};
 			
-			\draw[->, thick] (OC) -- (EA) node[midway, above, sloped] {H1};
-			\draw[->, thick] (LP) -- (EA) node[midway, below, sloped] {H2};
-			\draw[->, thick] (EA) -- (PROD) node[midway, above] {H3};
-			\draw[->, thick] (PROD) -- (ROI) node[midway, above] {H4};
-		\end{tikzpicture}%
-	}
-	\caption{Hypothesised structural model. Effective adoption of AI coding assistants is hypothesised to mediate the relationship between organisational culture and leadership practices, and the productivity and ROI outcomes associated with AI coding assistants (H5).}
-	\label{fig:hypothesised_model}
-\end{figure}
+%			\draw[->, thick] (OC) -- (EA) node[midway, above, sloped] {H1};
+%			\draw[->, thick] (LP) -- (EA) node[midway, below, sloped] {H2};
+%			\draw[->, thick] (EA) -- (PROD) node[midway, above] {H3};
+%			\draw[->, thick] (PROD) -- (ROI) node[midway, above] {H4};
+%		\end{tikzpicture}%
+%	}
+%	\caption{Hypothesised structural model. Effective adoption of AI coding assistants is hypothesised to mediate the relationship between organisational culture and leadership practices, and the productivity and ROI outcomes associated with AI coding assistants (H5).}
+%	\label{fig:hypothesised_model}
+%\end{figure}
 
 \section{Population and Sampling}
 \label{sec:Population and Sampling}
@@ -90,29 +90,37 @@ The study focused on software engineering teams within large organisations in So
 
 \subsection{Sampling Strategy}
 \label{sec:Sampling Strategy}
-A purposive sampling strategy was adopted, focusing on organisations that met the following criteria:
+In this study, purposive sampling was used to select organisations that met the most important of the following criteria:
 \begin{itemize}
-	\item used AI coding assistants;
-	\item had used AI coding assistants for at least six months; and
-	\item maintained measurable software engineering metrics.
+	\item Organisations that use AI coding assistants;
+	\item Organisations that have used AI coding assistants for no less than six months; and
+	\item Organisations that have identifiable software engineering metrics.	
 \end{itemize}
 
-Software developers and team leads within these organisations formed the study's participants, selected using a stratified sampling method.
+The sample comprised software developers and team leads of the selected organisations and was developed by applying a stratified sampling approach.
 
-Methodological guidance indicates that structural equation modelling requires a minimum sample of more than 200 participants to ensure model stability \autocite{Hair2019}. Accordingly, the study targeted a sample of between 250 and 400 participants.
+Guidelines suggest that in order to allow structural equation modelling to be applied successfully, having 200 and more respondents in the sample is critical \autocite{Hair2019}. Hence, the goal of this study was to attain a sample size between 250 and 400 respondents.
 
 \section{Measurement and Operationalisation}
-\label{sec:Measurement and Operationalization}
+\label{sec:Measurement and Operationalisation}
 Measurement scales were developed for each latent construct to establish construct validity \autocite{DeVellis2022}.
 
 \subsection{Organisational Culture}
-\label{sec:Organizational Culture}
+\label{sec:Organisational Culture}
 Organisational culture was assessed using adapted and validated scales addressing the following dimensions:
 
 \begin{itemize}
 	\item \textbf{Psychological Safety}
 \end{itemize}
 Psychological safety refers to the degree of comfort felt by members of a group to experiment, question, and contribute ideas without fear of criticism. In software engineering teams using AI coding assistants such as GitHub Copilot, psychological safety enables developers to question the suggestions generated by the tool. Developers who feel safe experimenting with the tool are better placed to become proficient in its use and to draw effectively on generative AI. Literature on the use of generative AI in knowledge work indicates that productivity gains are more pronounced where workers engage with such tools collaboratively \autocite{Noy2023}.
+
+
+
+
+
+
+
+
 
 \begin{itemize}
 	\item \textbf{Learning Orientation}
@@ -138,7 +146,7 @@ Leadership practices were assessed using scales covering the following dimension
 \begin{itemize}
 	\item \textbf{Executive Sponsorship}
 \end{itemize}
-Executive sponsorship describes the extent to which an organisation's top leaders publicly support and promote the adoption of generative AI technologies. When leaders visibly endorse AI coding assistants and related tools, this signals to the wider workforce that the technology is of strategic importance and aligned with organisational objectives. Studies examining generative AI adoption in knowledge-intensive tasks have shown that workers are more likely to engage with AI technologies and explore new ways of working when such tools receive visible organisational support \autocite{Noy2023}. Similarly, research on AI adoption more broadly has found that executive sponsorship helps ensure that adoption is coordinated effectively and that employees adopt new technologies with greater confidence \autocite{Brynjolfsson2025}.
+Executive sponsorship describes the extent to which an organisation's top leaders publicly support and promote the adoption of generative AI technologies. When leaders visibly endorse AI coding assistants and related tools, this signals to the wider workforce that the technology is of strategic importance and aligned with organisational objectives. Studies examining generative AI adoption in knowledge-intensive tasks have shown that workers are more likely to engage with AI technologies and explore new ways of working when such tools receive visible organisational support \autocite{Noy2023}. Similarly, research on AI adoption more broadly has found that executive sponsorship helps ensure that adoption is coordinated effectively and that employees' adopt new technologies with greater confidence \autocite{Brynjolfsson2025}.
 
 \begin{itemize}
 	\item \textbf{Governance Clarity}
@@ -153,7 +161,7 @@ Resource support refers to the financial, technical, and human resources committ
 \begin{itemize}
 	\item \textbf{Metric Alignment}
 \end{itemize}
-Metric alignment refers to the alignment of organisational performance metrics with the intended outcomes of AI adoption. For AI coding assistants, these outcomes typically centre on improved productivity, shorter cycle times, and better software quality, and it is therefore important that performance metrics, such as deployment frequency, defect rates, and development throughput, are aligned with them. Where performance metrics are aligned with the intended outcomes of AI adoption, employees are more likely to direct their use of AI towards those organisational outcomes. Research on generative AI productivity indicates that organisational outcomes become tangible once performance indicators are aligned with AI usage and task efficiency \autocite{Noy2023}.
+Metric alignment refers to the alignment of organisational performance metrics with the intended outcomes of AI adoption. For AI coding assistants, these outcomes typically centre on improved productivity, shorter cycle times, and better software quality, and it is therefore important that performance metrics, such as deployment frequency, defect rates, and development throughput, are aligned with them. Where performance metrics are aligned with the intended outcomes of AI adoption, employees' are more likely to direct their use of AI towards those organisational outcomes. Research on generative AI productivity indicates that organisational outcomes become tangible once performance indicators are aligned with AI usage and task efficiency \autocite{Noy2023}.
 
 \subsection{Effective Adoption}
 \label{sec:Effective Adoption}
