@@ -26,80 +26,93 @@ When testing relationships between concepts, one must verify the relationships i
 \end{itemize}
 Latent constructs are described as hypothetical concepts that cannot be measured using direct observations. However, multidimensional indicators show its significance. This research is utilising the termologу utilised in the technical literature and applies it to organisational culture, leadership style, and effectiveness of AI implementation, as all of them represent complex behaviour of an organisation. This implies that investigation of the mentioned constructs was possible due to utilising a structured questionnaire and special scales developed for this purpose \autocite{Hair2019}.
 
-
-
-
-
-
-
 \begin{itemize}
-	\item \textbf{Estimating causal processes}
+	\item \textbf{Estimating relationships between variables}
 \end{itemize}
-Estimating causal pathways requires consideration of how one variable influences another within a theoretical framework. In this study, the causal pathways of interest describe the influence of organisational culture and leadership on the effective adoption of AI coding assistants, and the subsequent influence of adoption on productivity and ROI outcomes. Structural equation modelling (SEM) was used to examine these relationships simultaneously, allowing both the direct and indirect effects among variables to be estimated and providing a clearer understanding of the mechanisms through which these relationships operate \autocite{Hair2019}.
+Estimating the relationships proposed by a theoretical framework requires an assessment of both the direct associations between variables and any indirect pathways through which one variable influences another. In this study, the relationships of interest describe the association of organisational culture and leadership with the ROI realised from AI coding assistants, and the extent to which this association operates through the quality with which the tools are assimilated into software engineering practice. Pearson correlation analysis was used as a preliminary, descriptive screening step, after which partial least squares structural equation modelling was used as the confirmatory analysis to estimate the measurement model, the structural paths, and the specific indirect (mediated) effects among these constructs \autocite{Hair2019}.
 
 \begin{itemize}
 	\item \textbf{Generating generalisable findings}
 \end{itemize}
-The primary goal of quantitative research is to yield results which are applicable to a larger population than the sample considered. In this study, a large enough sample of software engineering professionals had been drawn in order to make the findings generalisable to a larger group of organisations. Statistical tools had also been applied to calculate the probability of the observed associations being real effect as compared to the random chance event, thus bringing important evidence both for practitioners and researchers \autocite{Bryman2016}.
+One of the main goals of quantitative research is to come up with results that can be generalised beyond the specific research sample. By obtaining a sufficiently large sample of software engineers, this paper aimed to generalise its results to reflect a wider population of organisations. Therefore, the application of statistical techniques, such as bootstrapped significance testing made it possible to assess the degree of probability that the association being studied is real rather than a matter of chance thus providing evidence to organisation and scholarly community alike (Bryman2016).
 
-The use of structured surveys and objective performance measures is consistent with the post-positivist emphasis on measurement \autocite{Hair2019}.
+The employment of structured surveys and objective significance testing is in line with the post-positivist method of research \autocite{Hair2019}.
 
 \section{Research Design}
 \label{sec:Research Design}
-\subsection{Quantitative Explanatory Design}
+\subsection{Quantitative Correlational and Structural Design}
 \label{sec:Quantitative Explanatory Design}
-The research utilised a cross-sectional quantitative approach to investigate the proposed links between organisational culture, leadership practices, efficient AI adoption, productivity, and return on investment.
+The study employed a cross-sectional quantitative design, combining a preliminary correlational stage with partial least squares structural equation modelling (PLS-SEM), to test the hypothesised relationships between organisational culture, AI leadership and governance support, the assimilation quality of AI coding assistants, and ROI.
 
-Quantitative techniques are ideally suited to the acquisition of knowledge about the nature of the relationships between variables and the verification of theoretical models \autocite{Bryman2016}. Since the conceptual framework indicated the existence of mediating relationships, the study was able to use the strengths of structural equation modelling (SEM) which allows for simultaneous examination of the relationships under consideration , evaluation of the direct, indirect, and total effects of the variables \autocite{Hair2019}.
+Quantitative research techniques help to study relationships between variables \autocite{Bryman2016}. The reason for using PLS-SEM analysis is that it deals with the model including a mediating variable, several latent variables that are reflectively measured, and several observed covariates, as well as its low requirements for distribution limits \autocite{Hair2019}. The analysis was carried out in line with PLS-SEM standards and was completed in two phases. The first phase was to find descriptive statistics, reliability, and Pearson coefficient for the data. The second stage dealt with constructing a reflective type measurement model and structural models, which helped to provide estimates of the loadings of indicators, verify internal consistency, perform statistical analysis of the model including validity of discriminant and convergent types and coefficients of structural paths \autocite{Hair2019}. Still, it is important to understand the difference between two phases, since a big correlation value between the independent variable and ROI can be treated as a hypothesis just through taking into account the variance, mediating path and control variables used in the last modeling stage.
+
+The structural model specified organisational culture and AI leadership and governance support as exogenous predictors of assimilation quality, assimilation quality as a mediating construct, and ROI as the dependent construct. Organisational readiness, team size, developer experience, and adoption duration were entered as control variables with direct paths to ROI, so that the core theoretical relationships could be assessed net of these contextual factors (Section~\ref{sec:Control Variables}).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \section{Research Hypotheses}
 \label{sec:Research Hypotheses}
-Consistent with the conceptual framework and the post-positivist emphasis on testing hypothesised relationships, the following hypotheses were formulated to guide the structural equation modelling analysis:
+Consistent with the conceptual framework and the post-positivist emphasis on testing hypothesised relationships, the following hypotheses were formulated to guide the analysis:
 
 \begin{itemize}
-	\item[\textbf{H1:}] Organisational culture has a significant positive influence on the effective adoption of AI coding assistants.
-	\item[\textbf{H2:}] Leadership practices have a significant positive influence on the effective adoption of AI coding assistants.
-	\item[\textbf{H3:}] The effective adoption of AI coding assistants has a significant positive influence on software engineering productivity.
-	\item[\textbf{H4:}] Improvements in software engineering productivity have a significant positive influence on the return on investment realised from AI coding assistants.
-	\item[\textbf{H5:}] The effective adoption of AI coding assistants mediates the relationship between (a) organisational culture and (b) leadership practices, and the productivity and ROI outcomes associated with AI coding assistants.
+	\item[\textbf{H1:}] Organisational culture has a significant positive relationship with the ROI realised from AI coding assistants.
+	\item[\textbf{H2:}] AI leadership and governance support has a significant positive relationship with the ROI realised from AI coding assistants.
+	\item[\textbf{H3:}] The assimilation quality of AI coding assistants has a significant positive relationship with the ROI realised from AI coding assistants.
+	\item[\textbf{H4:}] The assimilation quality of AI coding assistants mediates the relationship between (a) organisational culture and (b) AI leadership and governance support, and the ROI realised from AI coding assistants.
 \end{itemize}
 
-The hypotheses reflect the key proposition of the research study, namely, that organisational and leadership variables do not have a direct impact on ROI, but instead act through determining the degree to which coding assistants powered by AI technology have been suitably utilised in programming teams. The hypothetical model is shown in Figure~\ref{fig:hypothesised_model} presents this hypothesised model diagrammatically.
+These hypotheses reflect the study's central proposition that organisational culture and leadership are associated with the ROI realised from AI coding assistants, and that this association operates, in whole or in part, through how well the tools are assimilated into software engineering practice. Because H1 and H2 concern the overall association between each predictor and ROI, they were evaluated using the total effect estimated by the structural model (the sum of each predictor's direct effect on ROI and its indirect effect through assimilation quality), consistent with the mediation-testing logic set out in Section~\ref{sec:Data Analysis}; the direct and indirect components of this total effect were then examined separately to test H4. Organisational readiness, team size, developer experience, and adoption duration were entered into the structural model as control variables with direct paths to ROI (Section~\ref{sec:Control Variables}); consistent with their role as controls rather than as theorised predictors, no directional hypotheses were formulated for these paths. Figure~\ref{fig:hypothesised_model} presents the hypothesised model diagrammatically.
 
-%\begin{figure}[htbp]
-%	\centering
-%	\resizebox{\linewidth}{!}{%
-%		\begin{tikzpicture}[
-%			construct/.style={draw, rounded corners=8pt, align=center, minimum width=2.8cm, minimum height=1.1cm, font=\small},
-%			every node/.style={font=\small}
-%			]
-%			\node[construct] (OC) at (0,2.2) {Organisational\\Culture};
-%			\node[construct] (LP) at (0,0) {Leadership\\Practices};
-%			\node[construct] (EA) at (4.6,1.1) {Effective Adoption of\\AI Coding Assistants};
-%			\node[construct] (PROD) at (9.2,1.1) {Software Engineering\\Productivity};
-%			\node[construct] (ROI) at (13.4,1.1) {Return on\\Investment (ROI)};
+\begin{figure}[htbp]
+	\centering
+	\resizebox{\linewidth}{!}{%
+		\begin{tikzpicture}[
+			construct/.style={draw, rounded corners=8pt, align=center, minimum width=2.8cm, minimum height=1.1cm, font=\small},
+			every node/.style={font=\small}
+			]
+			\node[construct] (OC) at (0,2.2) {Organisational\\Culture};
+			\node[construct] (LP) at (0,0) {AI Leadership and\\Governance Support};
+			\node[construct] (AQ) at (4.8,1.1) {Assimilation Quality of\\AI Coding Assistants};
+			\node[construct] (ROI) at (9.6,1.1) {Return on\\Investment (ROI)};
+			\node[construct, minimum width=4.2cm] (CTRL) at (9.6,-1.8) {Controls: Organisational Readiness,\\Team Size, Developer Experience,\\Adoption Duration};
 			
-%			\draw[->, thick] (OC) -- (EA) node[midway, above, sloped] {H1};
-%			\draw[->, thick] (LP) -- (EA) node[midway, below, sloped] {H2};
-%			\draw[->, thick] (EA) -- (PROD) node[midway, above] {H3};
-%			\draw[->, thick] (PROD) -- (ROI) node[midway, above] {H4};
-%		\end{tikzpicture}%
-%	}
-%	\caption{Hypothesised structural model. Effective adoption of AI coding assistants is hypothesised to mediate the relationship between organisational culture and leadership practices, and the productivity and ROI outcomes associated with AI coding assistants (H5).}
-%	\label{fig:hypothesised_model}
-%\end{figure}
-
-% ------------------------------------------------------------------------------
-% Theoretical framework image
-% ------------------------------------------------------------------------------
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width = 1\textwidth]{Images/Hypothesised_structural_model} % enter the filename here
-		\caption{Hypothesised structural model.} % enter the figure caption here
-		\label{fig:hypothesised_model} % enter the figure label here (for cross referencing)
-	\end{center}
+			\draw[->, thick] (OC) -- (AQ) node[midway, above, sloped] {H1};
+			\draw[->, thick] (LP) -- (AQ) node[midway, below, sloped] {H2};
+			\draw[->, thick] (AQ) -- (ROI) node[midway, above] {H3};
+			\draw[->, thick] (CTRL) -- (ROI);
+		\end{tikzpicture}%
+	}
+	\caption{Hypothesised model. Assimilation quality is hypothesised to mediate the relationship between organisational culture and AI leadership and governance support, and the ROI realised from AI coding assistants (H4). Organisational readiness, team size, developer experience, and adoption duration were entered as control variables with direct paths to ROI.}
+	\label{fig:hypothesised_model}
 \end{figure}
-
 
 \section{Population and Sampling}
 \label{sec:Population and Sampling}
@@ -109,136 +122,165 @@ The study focused on software engineering teams within large organisations in So
 
 \subsection{Sampling Strategy}
 \label{sec:Sampling Strategy}
-In this study, purposive sampling was used to select organisations that met the most important of the following criteria:
+A purposive sampling strategy was adopted, focusing on organisations that met the following criteria:
 \begin{itemize}
-	\item Organisations that use AI coding assistants;
-	\item Organisations that have used AI coding assistants for no less than six months; and
-	\item Organisations that have identifiable software engineering metrics.	
+	\item used AI coding assistants;
+	\item had used AI coding assistants for at least six months; and
+	\item maintained measurable software engineering metrics.
 \end{itemize}
 
-The sample comprised software developers and team leads of the selected organisations and was developed by applying a stratified sampling approach.
+Software engineering practitioners within these organisations, including developers, technical leads, and engineering managers, formed the study's participants, selected using a stratified sampling method.
 
-Guidelines suggest that in order to allow structural equation modelling to be applied successfully, having 200 and more respondents in the sample is critical \autocite{Hair2019}. Hence, the goal of this study was to attain a sample size between 250 and 400 respondents.
+Methodological guidance recommends a minimum of 200 participants for the correlation and structural equation modelling analyses used in this study, to support stable and reliable estimates \autocite{Hair2019}. Accordingly, the study targeted a sample of between 250 and 300 participants. As reported in Chapter Four, 357 responses were submitted, of which 355 met the pre-specified eligibility criterion of current AI coding assistant use.
 
 \section{Measurement and Operationalisation}
-\label{sec:Measurement and Operationalisation}
-Measurement scales were developed for each latent construct to establish construct validity \autocite{DeVellis2022}.
+\label{sec:Measurement and Operationalization}
+Measurement scales were developed for each latent construct to establish construct validity \autocite{DeVellis2022}. Each construct was measured using a five-point Likert scale. Consistent with the numeric coding scheme specified for this analysis, responses were coded 1 (Strongly Agree), 2 (Agree), 3 (Neither Agree nor Disagree), 4 (Disagree), and 5 (Strongly Disagree); this direction was applied uniformly to every item, so that a lower mean score indicates stronger agreement. This coding choice does not affect the substantive conclusions drawn from the analysis, since reliability coefficients are invariant to the direction of a uniformly applied recoding and correlation or path coefficients between two identically coded constructs retain their substantive sign; it is noted explicitly here, and again at the relevant points in Chapter Four, so that the reported means and skewness values are interpreted correctly.
 
 \subsection{Organisational Culture}
-\label{sec:Organisational Culture}
-\textbf{Organisational culture} was assessed using adapted and validated scales addressing the following dimensions:
+\label{sec:Organizational Culture}
+Organisational culture was assessed using adapted and validated scales addressing the following dimensions:
 
 \begin{itemize}
 	\item \textbf{Psychological Safety}
 \end{itemize}
-\textbf{Psychological safety} refers to the degree of comfort felt by members of a group to experiment, question, and contribute ideas without fear of criticism. In software engineering teams using AI coding assistants such as GitHub Copilot, psychological safety enables developers to question the suggestions generated by the tool. Developers who feel safe experimenting with the tool are better placed to become proficient in its use and to draw effectively on generative AI. Literature on the use of generative AI in knowledge work indicates that productivity gains are more pronounced where workers engage with such tools collaboratively \autocite{Noy2023}.
+Psychological safety refers to the degree of comfort felt by members of a group to experiment, question, and contribute ideas without fear of criticism. In software engineering teams using AI coding assistants such as GitHub Copilot, psychological safety enables developers to question the suggestions generated by the tool. Developers who feel safe experimenting with the tool are better placed to become proficient in its use and to draw effectively on generative AI. Literature on the use of generative AI in knowledge work indicates that productivity gains are more pronounced where workers engage with such tools collaboratively \autocite{Noy2023}.
 
 \begin{itemize}
 	\item \textbf{Learning Orientation}
 \end{itemize}
-The term \textbf{learning orientation} refers to the priority given by an organisation to continuous learning and the development of skills. When generative AI technologies are adopted in organisations, developers have to equip themselves with capabilities that will enable them to utilise them effectively.Those organisations that have a solid learning orientation will have an advantage over others in implementing generative AI.Studies conducted in real settings have shown that productivity of workers can be increased in a considerable way with the help of generative AI technologies \autocite{Brynjolfsson2025}.
+Learning orientation describes the emphasis an organisation places on continuous learning and skill development. As generative AI technologies are integrated into an organisation, developers need to build the skills required to work effectively with these tools. Organisations with a strong learning orientation are better placed to integrate generative AI successfully into their work processes. Empirical research on generative AI in professional settings has found that workers can achieve significant improvements in task efficiency through engagement with such technologies \autocite{Brynjolfsson2025}.
 
 \begin{itemize}
 	\item \textbf{Knowledge Sharing}
 \end{itemize}
-\textbf{Knowledge sharing} refers to the transfer of information and skills between members of the team. This usually involves the transferring of knowledge about the prompts that are required for triggering the needed outputs, methods for debugging, and other best practices of the tool usage. This process helps achieve more efficient application of generative AI by the team. Empirical evidence from real-life use of AI coding assistants shows that the development teams benefit from using knowledge sharing in their application of such tools \autocite{Sergeyuk2025}.
+Knowledge sharing refers to the exchange of information and expertise among members of a team. In teams that use AI coding assistants, this typically involves sharing knowledge of prompts, debugging approaches, and best practice for using the tool, which in turn enables the team to use generative AI more effectively. Empirical research on the practical use of AI coding assistants suggests that development teams rely on such knowledge sharing to use the tools efficiently \autocite{Sergeyuk2025}.
 
 \begin{itemize}
 	\item \textbf{Digital Openness}
 \end{itemize}
-\textbf{Digital openness} describes the readiness of organisations and their personnel to embrace new digital technologies. Organisations that demonstrate digital openness will be more receptive to the use of generative AI tools and will modify their working processes to suit the  technological innovations.  In software engineering, digital openness may promote the use of AI-based coding assistants as well as assist developers in searching alternative means of speeding up their workflow.
+Digital openness refers to the willingness of organisations and their people to accept new digital technologies. Organisations that display digital openness are more likely to accept generative AI tools and to adapt their processes accordingly. In software engineering, digital openness is likely to encourage the adoption of AI coding assistants and to support developers in exploring new ways of improving their productivity.
 
-Likert scales were used to measure perceptions and attitudes \autocite{Bryman2016}.
+The organisational culture scale comprised seven items covering experimentation, knowledge sharing, learning orientation, collaboration, innovation support, responsible use, and the evaluation of measurable value, and was measured using the five-point Likert scale described above \autocite{Bryman2016}.
 
-\subsection{Leadership Practices}
+\subsection{AI Leadership and Governance Support}
 \label{sec:Leadership Practices}
-Leadership practices were assessed using scales covering the following dimensions:
+AI leadership and governance support was assessed using a four-item scale covering the following dimensions:
 
 \begin{itemize}
 	\item \textbf{Executive Sponsorship}
 \end{itemize}
-\textbf{Executive sponsorship} refers to the level of support that an organisations senior leadership provides for the implementation of generative AI tools within the organisation. When leaders publicise their support for AI coding assistants, they let employees' know that AI is of great importance to the organisation. Research on generative AI adoption suggests that employees are more likely to work with generative AI technologies if they receive support from their organisations leadership \autocite{Noy2023}. Research on AI adoption indicates that executive sponsorship allows for successful coordination of the implementation of AI technologies \autocite{Brynjolfsson2025}.
-
-\begin{itemize}
-	\item \textbf{Governance Clarity}
-\end{itemize}
-\textbf{Governance clarity} means having clear policies and rules regarding how AI technologies are to be used. Using technologies such as Copilot has large implications for the company's governance framework with respect to IP issues, security, and software quality assurance, making it vital for companies to have robust governance structures in place in order to guide the use of AI code and make responsibilities clear. The studies conducted in the area of AI governance show that companies with a well-defined governance framework have greater chances of successfully overcoming technology risks while obtaining the necessary productivity \autocite{Hradecky2022}, which makes governance clarity an important factor in the sustainable utilisation of generative AI tools in the sphere of software development.
-
-\begin{itemize}
-	\item \textbf{Resource Support}
-\end{itemize}
-\textbf{Resource support} refers to the financial, technical, and human resources committed to the successful deployment of AI technologies. Deploying AI coding assistants requires investment in developer training, integration into development environments, infrastructure, and ongoing monitoring; where this support is absent, organisations risk failing to realise the productivity benefits the tools can offer. Empirical research on organisational investment in AI suggests that organisations investing in developer training and digital infrastructure are more likely to achieve performance benefits from their AI investment. \textcite{Babina2024} argue that sufficient resource support is crucial to the productive deployment of AI coding assistants.
+Executive sponsorship describes the extent to which an organisation's top leaders publicly support and promote the adoption of generative AI technologies, and communicate clear direction on how the tools should be used in development work. When leaders visibly endorse AI coding assistants and related tools, this signals to the wider workforce that the technology is of strategic importance and aligned with organisational objectives. Studies examining generative AI adoption in knowledge-intensive tasks have shown that workers are more likely to engage with AI technologies and explore new ways of working when such tools receive visible organisational support \autocite{Noy2023}. Similarly, research on AI adoption more broadly has found that executive sponsorship helps ensure that adoption is coordinated effectively and that employees adopt new technologies with greater confidence \autocite{Brynjolfsson2025}.
 
 \begin{itemize}
 	\item \textbf{Metric Alignment}
 \end{itemize}
-Metric alignment refers to the alignment of organisational performance metrics with the intended outcomes of AI adoption. For AI coding assistants, these outcomes typically centre on improved productivity, shorter cycle times, and better software quality, and it is therefore important that performance metrics, such as deployment frequency, defect rates, and development throughput, are aligned with them. Where performance metrics are aligned with the intended outcomes of AI adoption, employees' are more likely to direct their use of AI towards those organisational outcomes. Research on generative AI productivity indicates that organisational outcomes become tangible once performance indicators are aligned with AI usage and task efficiency \autocite{Noy2023}.
-
-\subsection{Effective Adoption}
-\label{sec:Effective Adoption}
-The term effective adoption refers to the integration of AI coding assistants in software development and their usage by software programmers. Adoption does not imply simply executing a tool; rather, it indicates how the programmer operatively utilises the tool, trusts it, and incorporates it into everyday work activities. The empirical studies conducted on the AI coding assistants indicate that AI coding assistants are able to enhance developer performance to some extent depending on how efficiently they apply this tool in their work activities \autocite{Brynjolfsson2025}. This framework was analysed based on the following parameters:
+Metric alignment refers to the clarity with which leaders communicate the business value expected from AI coding assistants, so that performance expectations are aligned with the intended outcomes of adoption. Research on generative AI productivity indicates that organisational outcomes become tangible once performance indicators are aligned with AI usage and task efficiency \autocite{Noy2023}.
 
 \begin{itemize}
-	\item \textbf{Usage Intensity}
+	\item \textbf{Resource Support}
 \end{itemize}
-Usage frequency refers to how often a developer uses the coding assistant. Frequent interaction with the tool generally results in the developer’s proficiency in the tool and finding ways to become productive. A high degree of usage frequency indicates that a developer has adapted the tool into their everyday workflow. Studies on generative AI in productivity in knowledge work have shown that high frequencies of usage lead to productivity and efficiency increases \autocite{Noy2023}.
-can
+Resource support refers to the financial, technical, and human resources committed to the successful deployment of AI technologies. Deploying AI coding assistants requires investment in developer training, integration into development environments, infrastructure, and ongoing monitoring; where this support is absent, organisations risk failing to realise the productivity benefits the tools can offer. \textcite{Babina2024} argue that sufficient resource support is crucial to the productive deployment of AI coding assistants.
+
+\begin{itemize}
+	\item \textbf{Governance Clarity}
+\end{itemize}
+Governance clarity refers to the extent to which leaders ensure that governance, risk, and quality concerns related to AI coding assistants are actively addressed. Generative AI tools such as Copilot carry significant governance implications for intellectual property, security, and software quality assurance, and organisations therefore need well-defined governance structures to frame the use of AI-generated code and to establish clear accountability. Research on AI governance has found that organisations with well-defined structures are better placed to manage technology risk while still realising the associated productivity benefits \autocite{Hradecky2022}.
+
+\subsection{Assimilation Quality of AI Coding Assistants}
+\label{sec:Effective Adoption}
+Assimilation quality refers to the extent to which AI coding assistants are integrated into software engineering work processes and used productively by software engineers, rather than merely installed. It concerns how well the tools are embedded in day-to-day workflows, the consistency with which they are used, the extent to which AI-generated output is appropriately reviewed, and the degree to which their use is supported by governance and quality control practices. Empirical studies on AI coding assistants point to their potential to increase developer productivity, though the scale of that increase depends on how fully the tool is assimilated into existing work processes \autocite{Brynjolfsson2025}. This construct was assessed using an eight-item scale covering the following indicators:
+
 \begin{itemize}
 	\item \textbf{Workflow Integration}
 \end{itemize}
-The term \textbf{"workflow integration"} describes how well the AI coding assistants fit within the software development process, including the environment, code review and teamwork. The tools which are better fitted into the existing workflow will be more accepted by the developers. Some studies conducted in the area of AI-enabled work showed that the best results can be received when the new developments are integrated into the existing processes rather than those, which disrupt them \autocite{Brynjolfsson2025}.
+Workflow integration refers to the extent to which AI coding assistants are well integrated into existing software development workflows and incorporated into collaborative activities such as code review, testing, and documentation. Tools that integrate well into existing processes are more likely to be embraced by developers. Studies of AI-enabled work systems have found that productivity gains are achieved when AI is integrated into existing work processes rather than when it disrupts them \autocite{Brynjolfsson2025}.
+
+\begin{itemize}
+	\item \textbf{Usage Consistency}
+\end{itemize}
+Usage consistency refers to the extent to which AI coding assistants are used according to consistent standards and practices, across different stages of the development process, and have become a routine part of the team's software development practice. Research on generative AI productivity in knowledge work has shown that consistent, routine use is associated with increased productivity and task efficiency \autocite{Noy2023}.
 
 \begin{itemize}
 	\item \textbf{Trust Calibration}
 \end{itemize}
-\textbf{Trust calibration} is the ability of the developers' to build the correct level of trust in outcomes coming from the AI system. The developers' need to decide when a suggestion made by the AI system should be trusted. If one trusts the recommendation too much, this will lead to mistakes; however, high scepticism is not good as well because it prevents improvement of project efficiency \autocite{Noy2023}.
+Trust calibration refers to developers' ability to place appropriate trust in AI-generated output while still applying rigorous evaluation, reflected in the extent to which AI-generated code suggestions are regularly reviewed before being incorporated into development work. Research on human-AI collaboration has shown that success depends on achieving this calibrated balance between trust and scrutiny \autocite{Noy2023}.
 
 \begin{itemize}
-	\item \textbf{Feature Utilisation Depth}
+	\item \textbf{Training and Governance Support}
 \end{itemize}
-The depth of usage of the feature pertains to the degree of the usage of the sophisticated functionalities of AI-assisted coding tools by the programming professionals instead of the utilisation of only basic coding features. In general, generative AI tools come with a wide range of features which include coding, debugging, documentation, and testing, and as such, the use of greater number of functionalities is linked to hitting greater productivity. Studies on AI supported software development have indicated that the higher the level of engagement with AI functionalities, the better the development and problem solving processes \autocite{Brynjolfsson2025}.
+This indicator captures whether developers receive adequate training on how to use AI coding assistants effectively, and whether their use is supported by appropriate governance and quality control practices within the team. Research on AI-assisted software development has shown that deeper, better-supported engagement with AI capabilities is associated with improved development and problem-solving efficiency \autocite{Brynjolfsson2025}.
 
+\subsection{Return on Investment (ROI)}
+\label{sec:Return on Investment Measurement}
+ROI was operationalised as the perceived business value realised from AI coding assistants, following the perceptual approach to ROI measurement common in information systems research where direct financial data are not accessible to individual respondents \autocite{Hair2019}. A 15-item scale assessed ROI across three conceptual levels:
+
+\begin{itemize}
+	\item \textbf{Task-Level ROI}
+\end{itemize}
+Task-level ROI (five items) captures the extent to which AI coding assistants have improved individual developer productivity, reduced the time required to complete coding tasks, improved the efficiency of routine development tasks, contributed to improved software quality, and improved overall delivery performance at the level of individual work.
+
+\begin{itemize}
+	\item \textbf{Workflow-Level ROI}
+\end{itemize}
+Workflow-level ROI (four items) captures the extent to which AI coding assistants have improved the efficiency of the overall development workflow, contributed to improved software quality, reduced rework, and improved delivery performance at the level of the team's workflow.
+
+\begin{itemize}
+	\item \textbf{Firm-Level ROI}
+\end{itemize}
+Firm-level ROI (six items) captures the extent to which AI coding assistants have contributed to lower software development costs, faster time to market, innovation in software products or services, benefits that outweigh the costs of adoption, business value beyond individual coding tasks, and financial value that justifies the investment made.
+
+Because the three ROI levels are conceptually related facets of the same underlying construct, all 15 items were retained and were tested both as a single overall reflective construct and as three separate dimensional constructs; the two specifications were compared using the measurement evidence reported in Chapter Four (Section~\ref{sec:Discriminant validity}), and the final representation used in the structural model was selected on that basis, in line with the principle that model specification should follow theory and measurement evidence rather than the significance of any resulting path \autocite{Hair2019}.
+
+\subsection{Control Variables}
+\label{sec:Control Variables}
+Four control variables were entered into the structural model with direct paths to ROI, so that the core theoretical relationships could be interpreted net of contextual influences that plausibly affect perceived ROI independently of organisational culture, leadership, or assimilation quality.
+
+Organisational readiness was measured using a six-item scale assessing whether the organisation has the technical infrastructure to support AI coding assistants, whether developers have the necessary skills, whether the organisation is generally ready to adopt and integrate AI technologies, whether adequate governance mechanisms are in place, whether the organisation is prepared to address associated risks (security, privacy, intellectual property, and quality), and whether it has the capability to assess whether AI coding assistants are generating measurable value. Unlike the remaining three control variables, organisational readiness was modelled as a reflective latent construct measured by its six items.
+
+Team size, developer experience, and adoption duration were each measured using a single categorical item from the survey's screening section (team size in bands from fewer than five to more than twenty developers; professional development experience in bands from less than two years to more than ten years; and adoption duration in bands from less than six months to more than two years) and were entered into the structural model as observed, single-indicator control variables. Team size and developer experience were retained as two distinct observed characteristics rather than combined into a single construct, since they describe conceptually different aspects of a respondent's context.
 
 \section{Data Collection}
 \label{sec:Data Collection}
-Data was collected through a structured online questionnaire. Online questionnaires have become popular in organisation and information systems research because of their ability to reach large samples. The questionnaire contained closed-ended questions arranged according to Likert-type scales to measure concepts like organisational culture, leadership behaviour, successful adoption of AI programming assistants and company results.
+Data were collected through a structured online questionnaire administered via Google Forms. Online questionnaires are widely used in organisational and information systems research owing to their effectiveness in reaching dispersed samples. The questionnaire comprised closed-ended items measured using the five-point Likert scale described in Section~\ref{sec:Measurement and Operationalization}, assessing organisational culture, AI leadership and governance support, the assimilation quality of AI coding assistants, ROI, and organisational readiness, together with a short screening and demographic section covering AI coding assistant use, adoption duration, role, team size, and professional development experience.
 
-The questionnaires were sent out through professional networks and communities related to software engineering and technology. Participation was voluntary and was done based on the informed consent obtained from the respondents before the research started.
+The questionnaire was distributed through professional networks, software engineering communities, and technology-oriented platforms. Participation was entirely voluntary, and informed consent was obtained prior to data collection. Respondents who indicated that their team did not use an AI coding assistant were screened out of the substantive sections of the questionnaire and excluded at the eligibility stage of the analysis (Chapter Four, Section~\ref{sec:Data Screening and Sample Profile}).
 
-The answers included in the questionnaire were modified versions of methods that were used and approved in earlier studies. The following constructs were analysed in the study subjective support of the leaders, organisational culture, AI adoption behaviour and the result type variable.
+The questionnaire items were adapted from measurement scales validated in prior studies, an approach intended to support the reliability of the data collected.
 
-Various studies dealing with AI adoption have shown that success of AI tools does not depend only on technology, but also on the correct way of adoption and usage by people and organisations \autocite{Brynjolfsson2025}. This is the reason why the research assessed both the active and passive usage of AI.
+Prior research on AI adoption suggests that the success of AI tools depends not only on the technology itself, but on how individuals and organisations adopt and use it \autocite{Brynjolfsson2025}. Accordingly, the study measured both behavioural and organisational dimensions of AI use.
 
 \subsection{Pilot Testing}
 \label{sec:Pilot Testing}
-Prior to launching the main survey, a preliminary test was conducted with a small number of software engineering practitioners who didn’t take part in the main survey. The preliminary test evaluated whether the survey was clear, whether it was too lengthy, and whether the survey questions could be understood by the survey participants. After making the necessary improvements, the survey was conducted with the actual participants \autocite{DeVellis2022}.
+Prior to full deployment, the questionnaire was piloted with a small group of software engineering practitioners who were not included in the main sample. The pilot exercise assessed the clarity, length, and face validity of the survey items, and the instrument was refined accordingly before being distributed to the target sample. Pre-testing an instrument in this way is recommended practice for reducing measurement error and improving respondent comprehension ahead of full-scale data collection \autocite{DeVellis2022}.
 
 \section{Data Analysis}
 \label{sec:Data Analysis}
-The collected data was analysed using SmartPLS and SPSS statistical software's capable of performing sophisticated statistical procedures such as factor analysis and structural equation modelling, a characteristic that would allow the researchers to conduct complex statistical operations such as implementing factor analysis and structural equation modelling. The analysis was performed in accordance with the following stages.
+Data analysis proceeded in two stages, following established PLS-SEM practice for combining preliminary screening with confirmatory structural modelling \autocite{Hair2019}.
 
-Stage one consisted of descriptive statistics that enabled the researchers to characterise the sample and compute the means, standard deviations and frequency distributions. The completion of the first stage allowed the researcher to identify missing values and outliers prior to conducting more advanced statistical evaluation.
+\textbf{Stage one: data screening and preliminary analysis.} The eligibility criterion (current use of an AI coding assistant) was applied first and independently of any subsequent result, yielding 355 eligible responses from 357 submitted; complete-case analysis was then applied to the eligible sample, yielding a final analytical sample of 354 (Chapter Four, Section~\ref{sec:Data Screening and Sample Profile}). Descriptive statistics (mean, standard deviation, minimum, maximum, skewness, and kurtosis) were computed for every item and for each construct, to characterise the sample and to check for out-of-range values and restricted variance. Internal consistency was assessed using Cronbach's alpha for each construct, computed separately for AI leadership and governance support, organisational culture, assimilation quality, organisational readiness, the 15-item ROI scale as a whole, and each of the three ROI dimensions individually, together with corrected item-total correlations. Common method bias was assessed using Harman's single-factor test, given that all constructs were measured by self-report from the same respondents at the same point in time. Finally, Pearson correlations were computed among provisional construct mean scores as a preliminary, descriptive view of the relationships between constructs; as noted in Section~\ref{sec:Quantitative Explanatory Design}, these correlations were not treated as the final test of the hypotheses.
 
-The second stage consisted of reliability and validity testing. Cronbach's alpha was computed to measure the internal quality of the measurement used to measure organisational culture, leadership and successful implementation of AI coding assistants; the value over the threshold of 0.70 is known to be good enough \autocite{Hair 2019}. Thereafter, confirmatory factor analysis (CFA) was employed to establish the validity of the measurement and verify that the survey questions reflected the theoretical constructs included in the conceptual framework, a critical step in the study involving new technologies such as generative AI considering broad organisational and behavioral issues connected to innovation flows \autocite{Mikalef 2021}.
+\textbf{Stage two: PLS-SEM measurement and structural model.} A reflective measurement model was estimated for AI leadership and governance support, organisational culture, assimilation quality, ROI, and organisational readiness, together with a structural model specifying organisational culture and AI leadership and governance support as predictors of assimilation quality, assimilation quality and the four control variables (organisational readiness, team size, developer experience, and adoption duration) as predictors of ROI, and organisational culture and AI leadership and governance support as additional direct predictors of ROI. Measurement model quality was assessed using indicator outer loadings (retaining loadings at or above .708 as strong indicator contributions), Cronbach's alpha, composite reliability (Dillon-Goldstein's rho), and average variance extracted (AVE, retaining constructs at or above .50); the Dijkstra-Henseler consistency reliability coefficient (rho\textsubscript{A}) reported by dedicated PLS-SEM software packages could not be computed with the software toolchain used for this analysis and is not reported, so composite reliability and Cronbach's alpha are relied upon jointly as the internal-consistency evidence. Discriminant validity was assessed using the heterotrait-monotrait ratio of correlations (HTMT), with values below .85 treated as strong evidence of discriminant validity and values between .85 and .90 treated as borderline. Because the theoretical framework identifies ROI at three levels, HTMT evidence was used, together with a comparison of the model estimated with a single overall ROI construct against a model estimated with task-, workflow-, and firm-level ROI as three separate constructs, to select the final ROI specification reported in Chapter Four, consistent with the principle that this choice should be justified by measurement evidence rather than by whichever specification produces more significant paths \autocite{Hair2019}.
 
-The third stage consisted of examining the relationships as described in the conceptual framework through the use of structural equation modeling (SEM). SEM was applicable for this research as it allows testing multiple relationships between the variables under examination and provides estimates for both direct and indirect effects, which is necessary when studying the complex relationships between organisational factors and technological outcomes that have been more typical in a field of information systems and technology adoption \autocite{Hair2019}. In particular, SEM helped in studying the influence of organisational culture and leadership practices on the successful implementation of AI coding assistants in software engineering teams and its implications for the productivity level and ROI of AI investment. This was based on the literature that suggested that generative AI has a great potential for improving productivity levels in knowledge-based work \autocite{Noy2023} and stressed the importance of proper incorporation of these technologies into the working processes \autocite{Brynjolfsson2025}.
+Structural model collinearity was assessed using the variance inflation factor (VIF), with values below 5 treated as free of serious multicollinearity. Structural path coefficients, their standard errors, t-values, and 95\% confidence intervals were estimated using bootstrapping (2,000 resamples, percentile method, two-tailed test), with a path treated as statistically supported where its 95\% confidence interval excluded zero. Effect sizes (f\textsuperscript{2}) were computed for each structural predictor by comparing the coefficient of determination (R\textsuperscript{2}) of the full model with that of a model omitting the predictor concerned, and R\textsuperscript{2} and adjusted R\textsuperscript{2} were reported for assimilation quality and ROI. The mediating effect of assimilation quality proposed in H4 was tested using the specific indirect effect (the product of the relevant path from organisational culture, or AI leadership and governance support, to assimilation quality, and the path from assimilation quality to ROI), with its own bootstrapped 95\% confidence interval; the pattern of direct and indirect results was then classified as indirect-only mediation, complementary partial mediation, competitive mediation, or no support for mediation, following standard PLS-SEM mediation-classification criteria \autocite{Hair2019}. Predictive relevance was assessed for each ROI indicator using a ten-fold cross-validated procedure in the spirit of PLSpredict, comparing the prediction error of the structural model with that of a linear regression benchmark and reporting Q\textsuperscript{2}\textsubscript{predict} for each indicator. Finally, two robustness checks were performed: a comparison of the structural model estimated with and without the four control variables, and a comparison of the primary model with a sensitivity model excluding respondents who selected the most positive response option on every substantive item, together with the standardised root mean square residual (SRMR) as a supplementary approximate model-fit statistic.
 
-To test the mediating effects of organisational culture and leadership practices proposed in the conceptual framework (Section~\ref{sec:Research Hypotheses}, H5), bootstrapping was used. Bootstrapping is a resampling procedure in which the dataset is repeatedly resampled to test the statistical significance of indirect relationships between variables, and is widely used in mediation analysis because it produces more reliable confidence intervals for indirect effects \autocite{Hair2019}.
+The PLS-SEM computations reported in Chapter Four were carried out using a Python-based implementation of the partial least squares path modelling algorithm, rather than the SmartPLS software package; this is stated explicitly here, since the two produce results based on the same underlying algorithm but are not the same software, and rho\textsubscript{A} in particular is a SmartPLS-reported statistic that this toolchain could not reproduce.
 
-Collectively, this analytical strategy was designed to generate empirical evidence on how organisational culture and leadership practices shaped the adoption of AI coding assistants, and how this adoption influenced the return on investment realised from AI technology in software engineering teams.
+Collectively, this analytical strategy was designed to generate empirical evidence on how organisational culture and AI leadership and governance support are associated with the ROI realised from AI coding assistants, the extent to which this association is explained by how well the tools are assimilated into software engineering practice, and how robust these relationships are once organisational readiness, team size, developer experience, and adoption duration are accounted for.
 
 \section{Research Limitations}
 \label{sec:Research Limitations}
-As is the case in any research, methodological limitations need to be addressed. To begin with, the study uses a cross-sectional design where the relationships between variables are studied at one particular point in time. This means that while SEM allows for testing the hypothesised causal relations, it may not produce results as reliable as longitudinal or experimental designs \autocite{Creswell2018}. Second, the use of self-report measures in assessing culture, leadership, adoption, and productivity runs the risk of producing common method bias due to the potential for over or under-reporting by the participants \autocite{Bryman2016}. Third, the resulted sampling method, although suitable for recruiting organisations under the criteria of the research, limits the generalisation of results to large South African organisations that have at least six months of experience with AI coding assistants. Finally, the ROI was operationalised using perception and productivity variables rather than financial data which makes it difficult to assess the actual financial return the participants got. These shortcomings will be discussed again in Chapter Five along with the suggestions for further research.
+As with any study, several methodological limitations should be acknowledged. First, the cross-sectional design captured relationships among variables at a single point in time; correlation, structural path, and mediation analysis can establish the strength, direction, and statistical significance of an association, but cannot establish causality with the same confidence as a longitudinal or experimental design \autocite{Creswell2018}. Second, all constructs were measured using self-reported items completed by the same respondents, which introduces the possibility of common method bias and social desirability bias; this risk is assessed directly in Chapter Four using Harman's single-factor test, and is compounded by a pronounced ceiling effect in the responses (Chapter Four, Section~\ref{sec:Data Screening and Descriptive Statistics}), which a sensitivity analysis excluding the most extreme response pattern shows materially affects the size, though not the direction, of some structural estimates. Third, organisational culture and AI leadership and governance support were highly correlated (Chapter Four, Section~\ref{sec:Discriminant validity}), which limits the extent to which their independent, direct effects on ROI can be separated in the structural model, even though their combined association with ROI, operating through assimilation quality, is estimated with more precision. Fourth, the three ROI sub-scales (task-, workflow-, and firm-level) were found not to be empirically distinguishable from one another, which supported the decision to represent ROI as a single overall construct in the final structural model, but also means the study cannot speak to whether organisational culture, leadership, or assimilation quality relate differently to ROI at the task, workflow, or firm level. Fifth, the use of purposive and stratified sampling, while appropriate for reaching organisations meeting the study's inclusion criteria, limits the extent to which the findings can be generalised beyond large South African organisations with at least six months of experience using AI coding assistants; the achieved sample also included a broader range of software engineering roles than the developers and team leads originally targeted, which is addressed further in Chapter Four. Sixth, ROI was operationalised through perceptual indicators rather than direct financial data, which may not fully capture the financial return realised by participating organisations. Finally, the PLS-SEM estimates were produced using a Python-based implementation of the partial least squares algorithm rather than the SmartPLS software package; while both implement the same underlying algorithm, one specific reliability statistic conventionally reported alongside SmartPLS results, rho\textsubscript{A}, could not be reproduced with this toolchain. These limitations are revisited in Chapter Five, alongside recommendations for future research.
 
 \section{Ethical Considerations}
 \label{sec:Ethical Considerations}
-This study included ethical considerations. The survey was voluntary and the aim of the research was explained to the respondents beforehand. The respondents were assured of anonymity and confidentiality of their responses.
+Ethical considerations formed an integral part of this research. Participation in the survey was voluntary, and respondents were informed of the purpose of the research prior to completing the questionnaire. Respondents were assured that their responses would remain anonymous and confidential.
 
-No personal identifiers were required from the respondents. The information received was used solely for academic reasons, and it was stored following the guidelines of social research.
+No personal identifiers were collected from respondents. The data were used solely for academic purposes and stored securely, in keeping with the ethical principles governing social science research.
 
 \section{Summary}
 \label{sec:Summary}
-In this chapter, the approach applied in this study was outlined. The investigation was based on the quantitative design to discover the relationships between organisational culture, leadership behaviours, efficient usage of AI coding assistants, and return on investment. The data has been collected via surveying software engineering experts using a structured questionnaire, and statistical methods, such as structural equations modelling, were applied to approve the existence of the hypothesised relations in the conceptual framework.
+This chapter has presented the methodological approach adopted in the study. A quantitative design combining preliminary correlational screening with partial least squares structural equation modelling was used to investigate the relationships between organisational culture, AI leadership and governance support, the assimilation quality of AI coding assistants, and ROI, net of the influence of organisational readiness, team size, developer experience, and adoption duration. Data were collected through a structured online survey of software engineering practitioners, and statistical techniques, including reliability analysis, Pearson correlation, and a bootstrapped PLS-SEM measurement and structural model, were used to test the hypothesised relationships within the conceptual framework.
 
-With the help of this methodology this study has attempted to gain practical knowledge regarding the impact of organisational and leadership aspects on the benefits that are achieved through applying generative AI technologies in software engineering.
+Through this methodology, the study sought to generate empirical evidence on the influence of organisational and leadership factors on the value realised from generative AI tools in software engineering. The following chapter presents the results of this analysis.
+
