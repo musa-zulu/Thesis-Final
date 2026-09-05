@@ -24,7 +24,7 @@ When testing relationships between concepts, one must verify the relationships i
 \begin{itemize}
 	\item \textbf{Measuring latent variables}
 \end{itemize}
-Latent constructs are described as hypothetical concepts that cannot be measured using direct observations. However, multidimensional indicators show its significance. This research is utilising the termologу utilised in the technical literature and applies it to organisational culture, leadership style, and effectiveness of AI implementation, as all of them represent complex behaviour of an organisation. This implies that investigation of the mentioned constructs was possible due to utilising a structured questionnaire and special scales developed for this purpose \autocite{Hair2019}.
+Latent constructs are abstract concepts that cannot be measured directly, although they can be assessed through multiple indicators. In this study, organisational culture, leadership, and the assimilation quality of AI coding assistants were treated as latent constructs, as each represents complex organisational behaviour rather than a directly observable variable. Such constructs were measured through structured survey items and scales that had previously been validated for this purpose, and their measurement properties, indicator loadings, internal consistency, and convergent validity, were formally assessed as part of the structural equation model described in Section~\ref{sec:Data Analysis} \autocite{Hair2019}.
 
 \begin{itemize}
 	\item \textbf{Estimating relationships between variables}
@@ -61,28 +61,41 @@ Consistent with the conceptual framework and the post-positivist emphasis on tes
 
 These hypotheses reflect the study's central proposition that organisational culture and leadership are associated with the ROI realised from AI coding assistants, and that this association operates, in whole or in part, through how well the tools are assimilated into software engineering practice. Because H1 and H2 concern the overall association between each predictor and ROI, they were evaluated using the total effect estimated by the structural model (the sum of each predictor's direct effect on ROI and its indirect effect through assimilation quality), consistent with the mediation-testing logic set out in Section~\ref{sec:Data Analysis}; the direct and indirect components of this total effect were then examined separately to test H4. Organisational readiness, team size, developer experience, and adoption duration were entered into the structural model as control variables with direct paths to ROI (Section~\ref{sec:Control Variables}); consistent with their role as controls rather than as theorised predictors, no directional hypotheses were formulated for these paths. Figure~\ref{fig:hypothesised_model} presents the hypothesised model diagrammatically.
 
-\begin{figure}[htbp]
-	\centering
-	\resizebox{\linewidth}{!}{%
-		\begin{tikzpicture}[
-			construct/.style={draw, rounded corners=8pt, align=center, minimum width=2.8cm, minimum height=1.1cm, font=\small},
-			every node/.style={font=\small}
-			]
-			\node[construct] (OC) at (0,2.2) {Organisational\\Culture};
-			\node[construct] (LP) at (0,0) {AI Leadership and\\Governance Support};
-			\node[construct] (AQ) at (4.8,1.1) {Assimilation Quality of\\AI Coding Assistants};
-			\node[construct] (ROI) at (9.6,1.1) {Return on\\Investment (ROI)};
-			\node[construct, minimum width=4.2cm] (CTRL) at (9.6,-1.8) {Controls: Organisational Readiness,\\Team Size, Developer Experience,\\Adoption Duration};
+%\begin{figure}[htbp]
+%	\centering
+%	\resizebox{\linewidth}{!}{%
+%		\begin{tikzpicture}[
+%			construct/.style={draw, rounded corners=8pt, align=center, minimum width=2.8cm, minimum height=1.1cm, font=\small},
+%			every node/.style={font=\small}
+%			]
+%			\node[construct] (OC) at (0,2.2) {Organisational\\Culture};
+%			\node[construct] (LP) at (0,0) {AI Leadership and\\Governance Support};
+%			\node[construct] (AQ) at (4.8,1.1) {Assimilation Quality of\\AI Coding Assistants};
+%			\node[construct] (ROI) at (9.6,1.1) {Return on\\Investment (ROI)};
+%			\node[construct, minimum width=4.2cm] (CTRL) at (9.6,-1.8) {Controls: Organisational Readiness,\\Team Size, Developer Experience,\\Adoption Duration};
 			
-			\draw[->, thick] (OC) -- (AQ) node[midway, above, sloped] {H1};
-			\draw[->, thick] (LP) -- (AQ) node[midway, below, sloped] {H2};
-			\draw[->, thick] (AQ) -- (ROI) node[midway, above] {H3};
-			\draw[->, thick] (CTRL) -- (ROI);
-		\end{tikzpicture}%
-	}
-	\caption{Hypothesised model. Assimilation quality is hypothesised to mediate the relationship between organisational culture and AI leadership and governance support, and the ROI realised from AI coding assistants (H4). Organisational readiness, team size, developer experience, and adoption duration were entered as control variables with direct paths to ROI.}
-	\label{fig:hypothesised_model}
+%			\draw[->, thick] (OC) -- (AQ) node[midway, above, sloped] {H1};
+%			\draw[->, thick] (LP) -- (AQ) node[midway, below, sloped] {H2};
+%			\draw[->, thick] (AQ) -- (ROI) node[midway, above] {H3};
+%			\draw[->, thick] (CTRL) -- (ROI);
+%		\end{tikzpicture}%
+%	}
+%	\caption{Hypothesised model. Assimilation quality is hypothesised to mediate the relationship between organisational culture and AI leadership and governance support, and the ROI realised from AI coding assistants (H4). Organisational readiness, team size, developer experience, and adoption duration were entered as control variables with direct paths to ROI.}
+%	\label{fig:hypothesised_model}
+%\end{figure}
+
+% ------------------------------------------------------------------------------
+% Hypothesised_structural_model image
+% ------------------------------------------------------------------------------
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width = 1\textwidth]{Images/Hypothesised_structural_model} % enter the filename here
+		\caption{hypothesised model} % enter the figure caption here
+		\label{fig:hypothesised_model} % enter the figure label here (for cross referencing)
+	\end{center}
 \end{figure}
+
+Hypothesised model. Assimilation quality is hypothesised to mediate the relationship between organisational culture and AI leadership and governance support, and the ROI realised from AI coding assistants (H4). Organisational readiness, team size, developer experience, and adoption duration were entered as control variables with direct paths to ROI.
 
 \section{Population and Sampling}
 \label{sec:Population and Sampling}
@@ -107,41 +120,29 @@ Following the requirement of the methodological guidance, which states that ther
 \label{sec:Measurement and Operationalisation}
 For each latent construct, measurement scales were created to ensure the construct validity \autocite{DeVellis2022}. A five-point Likert scale was used to measure each construct. As per the numeric coding system agreed for this analysis, responses were coded as 1 (Strongly Agree), 2 (Agree), 3 (Neither Agree nor Disagree), 4 (Disagree), and 5 (Strongly Disagree); for all items, the same direction was used, where a lower mean score means a stronger agreement. There is no influence of this coding option on the substantive conclusions obtained from the analysis; the reliability coefficients remain unaffected due to the uniform use of recoding and the correlation or path coefficient of having two constructs coded in the same way showcases the same sign; it is stressed in this section and in chapter four as well to clarify the interpretation of means and skewness statistics.
 
-
-
-
-
-
-
-
-
-
-
-
-
 \subsection{Organisational Culture}
-\label{sec:Organizational Culture}
-Organisational culture was assessed using adapted and validated scales addressing the following dimensions:
+\label{sec:Organisational Culture}
+\textbf{Organisational culture} was assessed using adapted and validated scales addressing the following dimensions:
 
 \begin{itemize}
 	\item \textbf{Psychological Safety}
 \end{itemize}
-Psychological safety refers to the degree of comfort felt by members of a group to experiment, question, and contribute ideas without fear of criticism. In software engineering teams using AI coding assistants such as GitHub Copilot, psychological safety enables developers to question the suggestions generated by the tool. Developers who feel safe experimenting with the tool are better placed to become proficient in its use and to draw effectively on generative AI. Literature on the use of generative AI in knowledge work indicates that productivity gains are more pronounced where workers engage with such tools collaboratively \autocite{Noy2023}.
+\textbf{Psychological safety} refers to the degree of comfort felt by members of a group to experiment, question, and contribute ideas without fear of criticism. In software engineering teams using AI coding assistants such as GitHub Copilot, psychological safety enables developers to question the suggestions generated by the tool. Developers who feel safe experimenting with the tool are better placed to become proficient in its use and to draw effectively on generative AI. Literature on the use of generative AI in knowledge work indicates that productivity gains are more pronounced where workers engage with such tools collaboratively \autocite{Noy2023}.
 
 \begin{itemize}
 	\item \textbf{Learning Orientation}
 \end{itemize}
-Learning orientation describes the emphasis an organisation places on continuous learning and skill development. As generative AI technologies are integrated into an organisation, developers need to build the skills required to work effectively with these tools. Organisations with a strong learning orientation are better placed to integrate generative AI successfully into their work processes. Empirical research on generative AI in professional settings has found that workers can achieve significant improvements in task efficiency through engagement with such technologies \autocite{Brynjolfsson2025}.
+The \textbf{learning orientation} refers to how much the organisation values continual learning and development of skills. In an organisation that is implementing generative AI tools, the members will need to develop the necessary skills to work with these technologies effectively. Thus, organisations that have a strong learning orientation possess a higher chance to be able to implement generative AI successfully. Empirical studies show that generative AI has a high potential to increase productivity at work due to its application by employees' on their jobs \autocite{Brynjolfsson2025}.
 
 \begin{itemize}
 	\item \textbf{Knowledge Sharing}
 \end{itemize}
-Knowledge sharing refers to the exchange of information and expertise among members of a team. In teams that use AI coding assistants, this typically involves sharing knowledge of prompts, debugging approaches, and best practice for using the tool, which in turn enables the team to use generative AI more effectively. Empirical research on the practical use of AI coding assistants suggests that development teams rely on such knowledge sharing to use the tools efficiently \autocite{Sergeyuk2025}.
+\textbf{Knowledge Sharing} refers to the transfer of knowledge and skills among the members of a team. In teams utilising AI coding assistants, this generally involves the transfer of knowledge related to prompts, methods of debugging and best practices for applying the tool, which in turn allows the team to take advantage of generative AI. Empirical studies show that software development teams depend on such knowledge sharing to use the tools wisely \autocite{Sergeyuk2025}.
 
 \begin{itemize}
 	\item \textbf{Digital Openness}
 \end{itemize}
-Digital openness refers to the willingness of organisations and their people to accept new digital technologies. Organisations that display digital openness are more likely to accept generative AI tools and to adapt their processes accordingly. In software engineering, digital openness is likely to encourage the adoption of AI coding assistants and to support developers in exploring new ways of improving their productivity.
+\textbf{Digital openness} refers to the willingness of organisations and their people to accept new digital technologies. Organisations that display digital openness are more likely to accept generative AI tools and to adapt their processes accordingly. In software engineering, digital openness is likely to encourage the adoption of AI coding assistants and to support developers in exploring new ways of improving their productivity.
 
 The organisational culture scale comprised seven items covering experimentation, knowledge sharing, learning orientation, collaboration, innovation support, responsible use, and the evaluation of measurable value, and was measured using the five-point Likert scale described above \autocite{Bryman2016}.
 
@@ -152,26 +153,42 @@ AI leadership and governance support was assessed using a four-item scale coveri
 \begin{itemize}
 	\item \textbf{Executive Sponsorship}
 \end{itemize}
-Executive sponsorship describes the extent to which an organisation's top leaders publicly support and promote the adoption of generative AI technologies, and communicate clear direction on how the tools should be used in development work. When leaders visibly endorse AI coding assistants and related tools, this signals to the wider workforce that the technology is of strategic importance and aligned with organisational objectives. Studies examining generative AI adoption in knowledge-intensive tasks have shown that workers are more likely to engage with AI technologies and explore new ways of working when such tools receive visible organisational support \autocite{Noy2023}. Similarly, research on AI adoption more broadly has found that executive sponsorship helps ensure that adoption is coordinated effectively and that employees adopt new technologies with greater confidence \autocite{Brynjolfsson2025}.
+
+\textbf{Executive sponsorship} refers to the degree to which leaders of the organisation advocate for the use of generative AIs and make it clear how they should be used in the development. When the top leaders show their support for AI programming assistants, it provides assurance to the employees' that this technology is of importance and meets the expectations of the organisation. Research in the field of the use of generative AI in complex processes has shown that workers feel more confident in using AI technologies with support from the organisation \autocite{Noy2023}. Research on the phenomenon of the use of AI has shown that executive sponsorship allows for the orderly adoption of new technologies across departments \autocite{Brynjolfsson2025}.
 
 \begin{itemize}
 	\item \textbf{Metric Alignment}
 \end{itemize}
-Metric alignment refers to the clarity with which leaders communicate the business value expected from AI coding assistants, so that performance expectations are aligned with the intended outcomes of adoption. Research on generative AI productivity indicates that organisational outcomes become tangible once performance indicators are aligned with AI usage and task efficiency \autocite{Noy2023}.
+In this context, \textbf{metric alignment} is defined as the degree to which business leaders express the expected value that will come from using an AI coding assistant, in order to ensure that the performance expectations meet the objectives set before AI adoption. Studies on generative AI productivity show that organisational outcomes are realised only if performance indicators match AI usage efficiency and task accomplishment. The alignment of metrics involves business leaders indicating the expected benefits from the use of an AI coding assistant and simultaneously managing performance expectations in light of these benefits \autocite{Noy2023}.
 
 \begin{itemize}
 	\item \textbf{Resource Support}
 \end{itemize}
-Resource support refers to the financial, technical, and human resources committed to the successful deployment of AI technologies. Deploying AI coding assistants requires investment in developer training, integration into development environments, infrastructure, and ongoing monitoring; where this support is absent, organisations risk failing to realise the productivity benefits the tools can offer. \textcite{Babina2024} argue that sufficient resource support is crucial to the productive deployment of AI coding assistants.
+\textbf{Resource support} is defined as the funding, know-how, and labour that must be allocated for successful implementation of AI solutions. For instance, the successful use of AI coding assistants requires investment in training developers, integration into software development environments as well as in infrastructure and constant analysis of the results of AI coding assistants' implementation. \textcite{Babina2024} states that companies would not benefit from using such tools without enough resource support.
 
 \begin{itemize}
 	\item \textbf{Governance Clarity}
 \end{itemize}
-Governance clarity refers to the extent to which leaders ensure that governance, risk, and quality concerns related to AI coding assistants are actively addressed. Generative AI tools such as Copilot carry significant governance implications for intellectual property, security, and software quality assurance, and organisations therefore need well-defined governance structures to frame the use of AI-generated code and to establish clear accountability. Research on AI governance has found that organisations with well-defined structures are better placed to manage technology risk while still realising the associated productivity benefits \autocite{Hradecky2022}.
+\textbf{Governance clarity} refers to the extent to which leaders ensure that governance, risk, and quality concerns related to AI coding assistants are actively addressed. Generative AI tools such as Copilot carry significant governance implications for intellectual property, security, and software quality assurance, and organisations therefore need well-defined governance structures to frame the use of AI-generated code and to establish clear accountability. Research on AI governance has found that organisations with well-defined structures are better placed to manage technology risk while still realising the associated productivity benefits \autocite{Hradecky2022}.
 
 \subsection{Assimilation Quality of AI Coding Assistants}
 \label{sec:Effective Adoption}
-Assimilation quality refers to the extent to which AI coding assistants are integrated into software engineering work processes and used productively by software engineers, rather than merely installed. It concerns how well the tools are embedded in day-to-day workflows, the consistency with which they are used, the extent to which AI-generated output is appropriately reviewed, and the degree to which their use is supported by governance and quality control practices. Empirical studies on AI coding assistants point to their potential to increase developer productivity, though the scale of that increase depends on how fully the tool is assimilated into existing work processes \autocite{Brynjolfsson2025}. This construct was assessed using an eight-item scale covering the following indicators:
+The quality of assimilation refers to the level to which coding assistants are integrated in the activities of a software engineer in a productive way as opposed to simply being installed. In this regard this concept encompasses how well the instruments are incorporated into daily workflow, the regularity of the usage, the extent to which AI-produced output is scrutinized and the degree to which the usage of the technology is in compliance with governance and quality assurance standards. Some empirical studies related to coding assistants reveal that they can boost developer’s productivity, although the magnitude of productivity increase depends on the degree of technology integration into the processes \autocite{Brynjolfsson2025}. The construct under discussion is based on the eight-item measure that addresses the following aspects:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \begin{itemize}
 	\item \textbf{Workflow Integration}
